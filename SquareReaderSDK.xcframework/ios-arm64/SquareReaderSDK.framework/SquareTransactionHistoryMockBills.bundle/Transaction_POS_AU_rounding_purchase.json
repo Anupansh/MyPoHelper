@@ -1,0 +1,609 @@
+{
+    "tender": [
+        {
+            "method": {
+                "cash_tender": {
+                    "amounts": {
+                        "change_back_money": {
+                            "amount": 805,
+                            "currency_code": "AUD"
+                        },
+                        "buyer_tendered_money": {
+                            "amount": 2000,
+                            "currency_code": "AUD"
+                        }
+                    }
+                }
+            },
+            "tendered_at": {
+                "date_string": "2020-04-10T06:39:00-07:00"
+            },
+            "tender_id_pair": {
+                "client_id": "D14A01B4-6F53-4650-AD95-63927BC79ABF",
+                "server_id": "ALykD27TKnnbzgXiVQUmLQB"
+            },
+            "read_only_loyalty_details": {
+                "account_contact": {
+                },
+                "reason": "PURCHASE_DID_NOT_QUALIFY",
+                "new_enrollment": false,
+                "stars_earned": 0,
+                "rewards_earned": 0
+            },
+            "read_only_last_refundable_at": {
+                "date_string": "2020-08-08T06:39:00-07:00"
+            },
+            "read_only_receipt_number": "ALyk",
+            "client_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:1DFA88CF-E828-4EAA-8490-29C4FA80AEF6",
+                "app_version": "5.38"
+            },
+            "type": "CASH",
+            "extra_tender_details": {
+            },
+            "read_only_state": "SETTLED",
+            "amounts": {
+                "total_money": {
+                    "amount": 1195,
+                    "currency_code": "AUD"
+                },
+                "auto_gratuity_percentage": "0"
+            }
+        }
+    ],
+    "cart": {
+        "amounts": {
+            "total_money": {
+                "amount": 1195,
+                "currency_code": "AUD"
+            },
+            "surcharge_money": {
+                "amount": 0,
+                "currency_code": "AUD"
+            },
+            "tip_money": {
+                "amount": 0,
+                "currency_code": "AUD"
+            },
+            "discount_money": {
+                "amount": 0,
+                "currency_code": "AUD"
+            },
+            "tax_money": {
+                "amount": 94,
+                "currency_code": "AUD"
+            }
+        },
+        "feature_details": {
+            "lifecycle_event": [
+                {
+                    "created_at": {
+                        "date_string": "2020-04-10T06:38:22-07:00"
+                    },
+                    "event_id_pair": {
+                        "client_id": "ED4D2A1F-053A-4543-81DB-340F3B8886BF"
+                    },
+                    "creator_details": {
+                        "employee": {
+                            "last_name": "Daly",
+                            "read_only_full_name": "Shaun Daly",
+                            "employee_token": "99WXR9GS7HS63",
+                            "first_name": "Shaun"
+                        }
+                    },
+                    "event_type": "OPEN"
+                },
+                {
+                    "event_id_pair": {
+                        "client_id": "6D3A006E-67A1-48CC-AFD4-C7C1A3A191DF"
+                    },
+                    "event_type": "CLOSE",
+                    "created_at": {
+                        "date_string": "2020-04-10T06:39:01-07:00"
+                    }
+                }
+            ],
+            "bill_print_state": {
+                "read_only_printed": false
+            }
+        },
+        "line_items": {
+            "rounding_adjustment": {
+                "amounts": {
+                    "applied_money": {
+                        "amount": 1,
+                        "currency_code": "AUD"
+                    }
+                },
+                "rounding_adjustment_line_item_id_pair": {
+                    "client_id": "FA101ACE-3480-45D6-8CBF-51F0ED8169C9"
+                },
+                "calculation_phase": "SWEDISH_ROUNDING_PHASE"
+            },
+            "itemization": [
+                {
+                    "quantity": "1",
+                    "read_only_display_details": {
+                        "item": {
+                        }
+                    },
+                    "event": [
+                        {
+                            "event_id_pair": {
+                                "client_id": "FE705C5C-DB2D-4FB9-9AAD-09FBF3A046EE"
+                            },
+                            "event_type": "CREATION",
+                            "created_at": {
+                                "date_string": "2020-04-10T06:38:51-07:00"
+                            }
+                        }
+                    ],
+                    "created_at": {
+                        "date_string": "2020-04-10T06:38:52-07:00"
+                    },
+                    "configuration": {
+                        "selected_options": {
+                            "fee": [
+                                {
+                                    "amounts": {
+                                        "applied_money": {
+                                            "amount": 17,
+                                            "currency_code": "AUD"
+                                        }
+                                    },
+                                    "read_only_display_details": {
+                                        "calculation_phase": "FEE_SUBTOTAL_PHASE",
+                                        "inclusion_type": "ADDITIVE",
+                                        "tax_type_name": "GST",
+                                        "cogs_object_id": "04e7f1fe-15ca-4bbd-94f0-3190eb05414f",
+                                        "tax_label_order": 0,
+                                        "percentage": "8.5",
+                                        "name": "8.5",
+                                        "tax_type_id": "au_sales_tax"
+                                    },
+                                    "fee_line_item_id_pair": {
+                                        "client_id": "DFE01950-5D2B-44CE-B5C8-916D3B7B1396",
+                                        "server_id": "31e76ac8-dbf2-4030-b6a3-cf1cee8a8ab4"
+                                    },
+                                    "created_at": {
+                                        "date_string": "2020-04-10T06:38:51-07:00"
+                                    }
+                                }
+                            ],
+                            "item_variation_details": {
+                                "read_only_display_details": {
+                                    "price_money": {
+                                        "amount": 200,
+                                        "currency_code": "AUD"
+                                    }
+                                }
+                            },
+                            "dining_option": {
+                                "backing_details": {
+                                    "dining_option": {
+                                        "id": "V6VS2HVCL4R7D6GP76PRFORI",
+                                        "name": "parkside",
+                                        "ordinal": 0,
+                                        "catalog_object_reference": {
+                                            "version": 1570824901777,
+                                            "catalog_object_token": "V6VS2HVCL4R7D6GP76PRFORI"
+                                        }
+                                    }
+                                },
+                                "application_scope": "CART_LEVEL",
+                                "dining_option_line_item_id_pair": {
+                                    "client_id": "A721ABA0-CAA3-4EC7-BE35-29E6536EDBC1",
+                                    "server_id": "5fb8b2f4-bdb9-4a0c-bc9c-3e9a94cf1488"
+                                }
+                            }
+                        },
+                        "backing_type": "CUSTOM_AMOUNT",
+                        "item_variation_price_money": {
+                            "amount": 200,
+                            "currency_code": "AUD"
+                        }
+                    },
+                    "feature_details": {
+                    },
+                    "itemization_id_pair": {
+                        "client_id": "0C84BEA3-C7D4-485B-8E5C-CC73644794E8",
+                        "server_id": "sNYeK3yuK9EvMcXPmFA6S"
+                    },
+                    "quantity_entry_type": "MANUALLY_ENTERED",
+                    "amounts": {
+                        "total_money": {
+                            "amount": 217,
+                            "currency_code": "AUD"
+                        },
+                        "item_variation_price_money": {
+                            "amount": 200,
+                            "currency_code": "AUD"
+                        },
+                        "item_variation_price_times_quantity_money": {
+                            "amount": 200,
+                            "currency_code": "AUD"
+                        },
+                        "discount_money": {
+                            "amount": 0,
+                            "currency_code": "AUD"
+                        },
+                        "tax_money": {
+                            "amount": 17,
+                            "currency_code": "AUD"
+                        }
+                    }
+                },
+                {
+                    "quantity": "1",
+                    "read_only_display_details": {
+                        "item": {
+                        }
+                    },
+                    "event": [
+                        {
+                            "event_id_pair": {
+                                "client_id": "C6B2EAFD-6206-43D8-9728-8B6B7C8FDE10"
+                            },
+                            "event_type": "CREATION",
+                            "created_at": {
+                                "date_string": "2020-04-10T06:38:52-07:00"
+                            }
+                        }
+                    ],
+                    "created_at": {
+                        "date_string": "2020-04-10T06:38:53-07:00"
+                    },
+                    "configuration": {
+                        "selected_options": {
+                            "fee": [
+                                {
+                                    "amounts": {
+                                        "applied_money": {
+                                            "amount": 26,
+                                            "currency_code": "AUD"
+                                        }
+                                    },
+                                    "read_only_display_details": {
+                                        "calculation_phase": "FEE_SUBTOTAL_PHASE",
+                                        "inclusion_type": "ADDITIVE",
+                                        "tax_type_name": "GST",
+                                        "cogs_object_id": "04e7f1fe-15ca-4bbd-94f0-3190eb05414f",
+                                        "tax_label_order": 0,
+                                        "percentage": "8.5",
+                                        "name": "8.5",
+                                        "tax_type_id": "au_sales_tax"
+                                    },
+                                    "fee_line_item_id_pair": {
+                                        "client_id": "3E0D911C-CB4C-4C25-8D21-EBDEE8A1DA02",
+                                        "server_id": "1cb5f8ad-4f96-4174-8ce3-c7394c2a2bbe"
+                                    },
+                                    "created_at": {
+                                        "date_string": "2020-04-10T06:38:51-07:00"
+                                    }
+                                }
+                            ],
+                            "item_variation_details": {
+                                "read_only_display_details": {
+                                    "price_money": {
+                                        "amount": 300,
+                                        "currency_code": "AUD"
+                                    }
+                                }
+                            },
+                            "dining_option": {
+                                "backing_details": {
+                                    "dining_option": {
+                                        "id": "V6VS2HVCL4R7D6GP76PRFORI",
+                                        "name": "parkside",
+                                        "ordinal": 0,
+                                        "catalog_object_reference": {
+                                            "version": 1570824901777,
+                                            "catalog_object_token": "V6VS2HVCL4R7D6GP76PRFORI"
+                                        }
+                                    }
+                                },
+                                "application_scope": "CART_LEVEL",
+                                "dining_option_line_item_id_pair": {
+                                    "client_id": "A721ABA0-CAA3-4EC7-BE35-29E6536EDBC1",
+                                    "server_id": "ff316e13-3bfa-43bd-970e-be8f596b2b96"
+                                }
+                            }
+                        },
+                        "backing_type": "CUSTOM_AMOUNT",
+                        "item_variation_price_money": {
+                            "amount": 300,
+                            "currency_code": "AUD"
+                        }
+                    },
+                    "feature_details": {
+                    },
+                    "itemization_id_pair": {
+                        "client_id": "CC3DC838-1ED6-4D46-9290-7412CC0DC0EE",
+                        "server_id": "8Rwzc4lVQVdLj5VNLwl5S"
+                    },
+                    "quantity_entry_type": "MANUALLY_ENTERED",
+                    "amounts": {
+                        "total_money": {
+                            "amount": 326,
+                            "currency_code": "AUD"
+                        },
+                        "item_variation_price_money": {
+                            "amount": 300,
+                            "currency_code": "AUD"
+                        },
+                        "item_variation_price_times_quantity_money": {
+                            "amount": 300,
+                            "currency_code": "AUD"
+                        },
+                        "discount_money": {
+                            "amount": 0,
+                            "currency_code": "AUD"
+                        },
+                        "tax_money": {
+                            "amount": 26,
+                            "currency_code": "AUD"
+                        }
+                    }
+                },
+                {
+                    "quantity": "1",
+                    "read_only_display_details": {
+                        "item": {
+                        }
+                    },
+                    "event": [
+                        {
+                            "event_id_pair": {
+                                "client_id": "ED3E85FB-BDB3-439C-A21C-257273CEF3E5"
+                            },
+                            "event_type": "CREATION",
+                            "created_at": {
+                                "date_string": "2020-04-10T06:38:53-07:00"
+                            }
+                        }
+                    ],
+                    "created_at": {
+                        "date_string": "2020-04-10T06:38:54-07:00"
+                    },
+                    "configuration": {
+                        "selected_options": {
+                            "fee": [
+                                {
+                                    "amounts": {
+                                        "applied_money": {
+                                            "amount": 51,
+                                            "currency_code": "AUD"
+                                        }
+                                    },
+                                    "read_only_display_details": {
+                                        "calculation_phase": "FEE_SUBTOTAL_PHASE",
+                                        "inclusion_type": "ADDITIVE",
+                                        "tax_type_name": "GST",
+                                        "cogs_object_id": "04e7f1fe-15ca-4bbd-94f0-3190eb05414f",
+                                        "tax_label_order": 0,
+                                        "percentage": "8.5",
+                                        "name": "8.5",
+                                        "tax_type_id": "au_sales_tax"
+                                    },
+                                    "fee_line_item_id_pair": {
+                                        "client_id": "372EB834-7973-4EDE-886D-AC076B36ECAE",
+                                        "server_id": "d4be03bd-95da-4402-9318-66fb4c1b0f2e"
+                                    },
+                                    "created_at": {
+                                        "date_string": "2020-04-10T06:38:51-07:00"
+                                    }
+                                }
+                            ],
+                            "item_variation_details": {
+                                "read_only_display_details": {
+                                    "price_money": {
+                                        "amount": 600,
+                                        "currency_code": "AUD"
+                                    }
+                                }
+                            },
+                            "dining_option": {
+                                "backing_details": {
+                                    "dining_option": {
+                                        "id": "V6VS2HVCL4R7D6GP76PRFORI",
+                                        "name": "parkside",
+                                        "ordinal": 0,
+                                        "catalog_object_reference": {
+                                            "version": 1570824901777,
+                                            "catalog_object_token": "V6VS2HVCL4R7D6GP76PRFORI"
+                                        }
+                                    }
+                                },
+                                "application_scope": "CART_LEVEL",
+                                "dining_option_line_item_id_pair": {
+                                    "client_id": "A721ABA0-CAA3-4EC7-BE35-29E6536EDBC1",
+                                    "server_id": "8b7d898e-5402-4341-b17e-c9f226362a2f"
+                                }
+                            }
+                        },
+                        "backing_type": "CUSTOM_AMOUNT",
+                        "item_variation_price_money": {
+                            "amount": 600,
+                            "currency_code": "AUD"
+                        }
+                    },
+                    "feature_details": {
+                    },
+                    "itemization_id_pair": {
+                        "client_id": "116698BB-3083-4D10-A7C0-398027315116",
+                        "server_id": "ysaOFfDUmmDu4SEbnAn5S"
+                    },
+                    "quantity_entry_type": "MANUALLY_ENTERED",
+                    "amounts": {
+                        "total_money": {
+                            "amount": 651,
+                            "currency_code": "AUD"
+                        },
+                        "item_variation_price_money": {
+                            "amount": 600,
+                            "currency_code": "AUD"
+                        },
+                        "item_variation_price_times_quantity_money": {
+                            "amount": 600,
+                            "currency_code": "AUD"
+                        },
+                        "discount_money": {
+                            "amount": 0,
+                            "currency_code": "AUD"
+                        },
+                        "tax_money": {
+                            "amount": 51,
+                            "currency_code": "AUD"
+                        }
+                    }
+                }
+            ],
+            "default_dining_option": {
+                "backing_details": {
+                    "dining_option": {
+                        "id": "V6VS2HVCL4R7D6GP76PRFORI",
+                        "name": "parkside",
+                        "ordinal": 0,
+                        "catalog_object_reference": {
+                            "version": 1570824901777,
+                            "catalog_object_token": "V6VS2HVCL4R7D6GP76PRFORI"
+                        }
+                    }
+                },
+                "application_scope": "CART_LEVEL",
+                "dining_option_line_item_id_pair": {
+                    "client_id": "A721ABA0-CAA3-4EC7-BE35-29E6536EDBC1",
+                    "server_id": "98fa483b-821a-4cef-95a0-904fc1dfc62e"
+                }
+            },
+            "fee": [
+                {
+                    "amounts": {
+                        "applied_money": {
+                            "amount": 94,
+                            "currency_code": "AUD"
+                        },
+                        "applied_to_money": {
+                            "amount": 1100,
+                            "currency_code": "AUD"
+                        },
+                        "after_application_total_money": {
+                            "amount": 1194,
+                            "currency_code": "AUD"
+                        }
+                    },
+                    "read_only_display_details": {
+                        "calculation_phase": "FEE_SUBTOTAL_PHASE",
+                        "inclusion_type": "ADDITIVE",
+                        "tax_type_name": "GST",
+                        "cogs_object_id": "04e7f1fe-15ca-4bbd-94f0-3190eb05414f",
+                        "tax_label_order": 0,
+                        "percentage": "8.5",
+                        "name": "8.5",
+                        "tax_type_id": "au_sales_tax"
+                    },
+                    "fee_line_item_id_pair": {
+                        "client_id": "88C3EC9E-352F-4306-B31A-BB680CD660BB",
+                        "server_id": "41b157aa-d773-4a3b-b6f8-de9564e940c1"
+                    },
+                    "created_at": {
+                        "date_string": "2020-04-10T06:38:51-07:00"
+                    }
+                }
+            ]
+        },
+        "amount_details": {
+            "net": {
+                "total_money": {
+                    "amount": 1195,
+                    "currency_code": "AUD"
+                },
+                "surcharge_money": {
+                    "amount": 0,
+                    "currency_code": "AUD"
+                },
+                "tip_money": {
+                    "amount": 0,
+                    "currency_code": "AUD"
+                },
+                "discount_money": {
+                    "amount": 0,
+                    "currency_code": "AUD"
+                },
+                "tax_money": {
+                    "amount": 94,
+                    "currency_code": "AUD"
+                }
+            },
+            "return": {
+                "total_money": {
+                    "amount": 0,
+                    "currency_code": "AUD"
+                },
+                "surcharge_money": {
+                    "amount": 0,
+                    "currency_code": "AUD"
+                },
+                "tip_money": {
+                    "amount": 0,
+                    "currency_code": "AUD"
+                },
+                "discount_money": {
+                    "amount": 0,
+                    "currency_code": "AUD"
+                },
+                "tax_money": {
+                    "amount": 0,
+                    "currency_code": "AUD"
+                }
+            },
+            "sale": {
+                "total_money": {
+                    "amount": 1195,
+                    "currency_code": "AUD"
+                },
+                "surcharge_money": {
+                    "amount": 0,
+                    "currency_code": "AUD"
+                },
+                "tip_money": {
+                    "amount": 0,
+                    "currency_code": "AUD"
+                },
+                "discount_money": {
+                    "amount": 0,
+                    "currency_code": "AUD"
+                },
+                "tax_money": {
+                    "amount": 94,
+                    "currency_code": "AUD"
+                }
+            }
+        }
+    },
+    "merchant": {
+        "read_only_photo_url": "https://square-web-staging-f.squarecdn.com/files/1ea0a3b8bfc22aae8772aed2b93f5f78e01a7a47/original.jpeg",
+        "read_only_business_name": "Australian Testing",
+        "merchant_token": "99WXR9GS7HS63"
+    },
+    "square_product": "REGISTER",
+    "dates": {
+        "created_at": {
+            "date_string": "2020-04-10T13:39:00Z"
+        },
+        "completed_at": {
+            "date_string": "2020-04-10T13:39:01Z"
+        }
+    },
+    "bill_id_pair": {
+        "server_id": "qo4xPrNaJkydqnHe6ndG569eV"
+    },
+    "read_only_loyalty_details": {
+        "account_contact": {
+        },
+        "reason": "PURCHASE_DID_NOT_QUALIFY",
+        "new_enrollment": false,
+        "stars_earned": 0,
+        "rewards_earned": 0
+    }
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DataTableViewCell" rowHeight="483" id="B9E-aq-Iu3" customClass="DataTableViewCell" customModule="MyProHelper" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="483"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="B9E-aq-Iu3" id="qXZ-D0-ZUr">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="483"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xeN-zn-6Jx">
+                        <rect key="frame" x="20" y="72" width="374" height="401"/>
+                        <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="300" id="Nym-uH-vvz"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SrO-2X-9UK">
+                        <rect key="frame" x="20" y="20" width="374" height="42"/>
+                        <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="42" id="v64-yH-eDe"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                        <state key="normal" title="Add Stock">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="addStockButtonPressedWithSender:" destination="B9E-aq-Iu3" eventType="touchUpInside" id="knb-VT-YGZ"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="SrO-2X-9UK" firstAttribute="top" secondItem="qXZ-D0-ZUr" secondAttribute="top" constant="20" id="3bm-b6-C1b"/>
+                    <constraint firstItem="SrO-2X-9UK" firstAttribute="leading" secondItem="qXZ-D0-ZUr" secondAttribute="leading" constant="20" id="49S-oX-sZD"/>
+                    <constraint firstAttribute="bottom" secondItem="xeN-zn-6Jx" secondAttribute="bottom" constant="10" id="UoV-k5-u5s"/>
+                    <constraint firstItem="xeN-zn-6Jx" firstAttribute="top" secondItem="SrO-2X-9UK" secondAttribute="bottom" constant="10" id="bH1-XS-9wa"/>
+                    <constraint firstAttribute="trailing" secondItem="SrO-2X-9UK" secondAttribute="trailing" constant="20" id="mee-MC-Avd"/>
+                    <constraint firstItem="xeN-zn-6Jx" firstAttribute="leading" secondItem="qXZ-D0-ZUr" secondAttribute="leading" constant="20" id="sIs-YT-DZd"/>
+                    <constraint firstAttribute="trailing" secondItem="xeN-zn-6Jx" secondAttribute="trailing" constant="20" id="vng-q8-sLH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addStockButton" destination="SrO-2X-9UK" id="jxl-Ab-CO4"/>
+                <outlet property="addStockButtonHeightConstraint" destination="v64-yH-eDe" id="nH1-tG-CPN"/>
+                <outlet property="stockTableContainerView" destination="xeN-zn-6Jx" id="cK0-2P-bbh"/>
+            </connections>
+            <point key="canvasLocation" x="142.02898550724638" y="69.308035714285708"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,27 @@
+framework module SquareCore {
+  umbrella header "SquareCore.h"
+
+  module Defines {
+    export *
+    textual header "SquareCoreDebugAssertDefines.h"
+    textual header "SquareCoreDefines.h"
+  }
+
+  explicit module SQReachability_Protected {
+    header "SQReachability_Protected.h"
+
+    export *
+  }
+
+  explicit module Testing {
+    header "NSUserDefaults+SQCAdditions_Testing.h"
+    header "SQReachability_Testing.h"
+    header "SQTimer_Testing.h"
+
+    export *
+  }
+
+  module * { 
+    export * 
+  }
+}

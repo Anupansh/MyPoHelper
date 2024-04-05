@@ -1,0 +1,1619 @@
+{
+    "tender": [
+        {
+            "peripheral_metadata": {
+                "app_version": "5350012",
+                "source_device_installation_id": "74C52011-49F4-4F05-BB04-27B29C6ACB04",
+                "app_release": "5.35d12",
+                "connected_peripherals": [
+                    {
+                        "manufacturer_name": "Square",
+                        "connection_type": "AUDIO",
+                        "model_name": "Unknown Model",
+                        "device_type": "Card Reader"
+                    },
+                    {
+                        "device_type": "Printer",
+                        "connection_type": "NETWORK",
+                        "manufacturer_name": "Star",
+                        "model_name": "TSP143III",
+                        "unique_identifier": "00:11:62:12:53:7F"
+                    }
+                ],
+                "transaction_local_id": "0AF68A1E-9A12-4527-8F55-EF33C0303ACC"
+            },
+            "creator_details": {
+                "employee": {
+                    "last_name": "Burke",
+                    "read_only_full_name": "Burke, Sandra",
+                    "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                    "first_name": "Sandra"
+                },
+                "device_credential": {
+                    "token": "HY61GKPR99Y0E",
+                    "name": "March 18th"
+                }
+            },
+            "amounts": {
+                "auto_gratuity_money": {
+                    "amount": 167,
+                    "currency_code": "USD"
+                },
+                "total_money": {
+                    "amount": 6836,
+                    "currency_code": "USD"
+                },
+                "surcharge_money": {
+                    "amount": 167,
+                    "currency_code": "USD"
+                },
+                "auto_gratuity_percentage": "10"
+            },
+            "type": "CASH",
+            "tendered_at": {
+                "date_string": "2020-03-18T16:14:16-05:00"
+            },
+            "read_only_loyalty_details": {
+                "account_contact": {
+                },
+                "reason": "BUYER_DECLINED",
+                "new_enrollment": false,
+                "stars_earned": 0,
+                "rewards_earned": 0
+            },
+            "extra_tender_details": {
+            },
+            "client_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:AB9990DB-B9E1-4FB8-82B0-41523D19DA03",
+                "app_version": "5.35"
+            },
+            "read_only_state": "SETTLED",
+            "read_only_receipt_number": "ckYM",
+            "read_only_last_refundable_at": {
+                "date_string": "2020-07-16T16:14:16-05:00"
+            },
+            "tender_id_pair": {
+                "client_id": "3E833BE2-7FB2-410E-A580-4E9B38E0D8BA",
+                "server_id": "ckYMPGQkZXb126cKz6qhLQB"
+            },
+            "method": {
+                "cash_tender": {
+                    "amounts": {
+                        "change_back_money": {
+                            "amount": 1164,
+                            "currency_code": "USD"
+                        },
+                        "buyer_tendered_money": {
+                            "amount": 8000,
+                            "currency_code": "USD"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "cart": {
+        "amounts": {
+            "total_money": {
+                "amount": 6836,
+                "currency_code": "USD"
+            },
+            "surcharge_money": {
+                "amount": 167,
+                "currency_code": "USD"
+            },
+            "tip_money": {
+                "amount": 0,
+                "currency_code": "USD"
+            },
+            "discount_money": {
+                "amount": 0,
+                "currency_code": "USD"
+            },
+            "tax_money": {
+                "amount": 94,
+                "currency_code": "USD"
+            }
+        },
+        "feature_details": {
+            "lifecycle_event": [
+                {
+                    "created_at": {
+                        "date_string": "2020-03-18T16:13:07-05:00"
+                    },
+                    "event_id_pair": {
+                        "client_id": "1E7CD8F5-FD71-46A2-94AC-9FBF88A0E7DE"
+                    },
+                    "creator_details": {
+                        "employee": {
+                            "last_name": "Burke",
+                            "read_only_full_name": "Sandra Burke",
+                            "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                            "first_name": "Sandra"
+                        }
+                    },
+                    "event_type": "OPEN"
+                },
+                {
+                    "created_at": {
+                        "date_string": "2020-03-18T16:14:21-05:00"
+                    },
+                    "event_id_pair": {
+                        "client_id": "E1CC0C15-DCD0-4A00-AEF1-94EE92D02C60"
+                    },
+                    "creator_details": {
+                        "employee": {
+                            "last_name": "Burke",
+                            "read_only_full_name": "Sandra Burke",
+                            "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                            "first_name": "Sandra"
+                        }
+                    },
+                    "event_type": "CLOSE"
+                }
+            ],
+            "seating": {
+                "read_only_cover_count": 6,
+                "seat": [
+                    {
+                        "created_at": {
+                            "date_string": "2020-03-18T16:13:07-05:00"
+                        },
+                        "enabled": true,
+                        "ordinal": 1,
+                        "seat_id_pair": {
+                            "client_id": "CCE31F27-4E6A-495E-B48A-95C339F9D784"
+                        }
+                    },
+                    {
+                        "created_at": {
+                            "date_string": "2020-03-18T16:13:07-05:00"
+                        },
+                        "enabled": true,
+                        "ordinal": 5,
+                        "seat_id_pair": {
+                            "client_id": "D3C4A57E-6AA4-4984-97C2-AEFA705CAEFF"
+                        }
+                    },
+                    {
+                        "created_at": {
+                            "date_string": "2020-03-18T16:13:07-05:00"
+                        },
+                        "enabled": true,
+                        "ordinal": 3,
+                        "seat_id_pair": {
+                            "client_id": "70D486B8-0903-4D1F-A113-0D8A5F1E769F"
+                        }
+                    },
+                    {
+                        "created_at": {
+                            "date_string": "2020-03-18T16:13:07-05:00"
+                        },
+                        "enabled": true,
+                        "ordinal": 6,
+                        "seat_id_pair": {
+                            "client_id": "FB6E8652-B362-49B7-AD6C-4522CA75CF26"
+                        }
+                    },
+                    {
+                        "created_at": {
+                            "date_string": "2020-03-18T16:13:07-05:00"
+                        },
+                        "enabled": true,
+                        "ordinal": 2,
+                        "seat_id_pair": {
+                            "client_id": "59C3D577-5EC3-450A-AA0F-13425E4DA876"
+                        }
+                    },
+                    {
+                        "created_at": {
+                            "date_string": "2020-03-18T16:13:07-05:00"
+                        },
+                        "enabled": true,
+                        "ordinal": 4,
+                        "seat_id_pair": {
+                            "client_id": "F44D659A-90DE-45F9-B1F4-68879DFDB5A1"
+                        }
+                    }
+                ],
+                "cover_count_change_log": [
+                    {
+                        "created_at": {
+                            "date_string": "2020-03-18T16:13:07-05:00"
+                        },
+                        "ordinal": 0,
+                        "count": 6,
+                        "creator_details": {
+                            "employee": {
+                                "last_name": "Burke",
+                                "read_only_full_name": "Sandra Burke",
+                                "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                                "first_name": "Sandra"
+                            }
+                        },
+                        "event_id": "8CF29794-AAC4-4CA5-9ABF-F15CEC41FCD4",
+                        "event_type": "USER_SELECTED"
+                    }
+                ]
+            },
+            "coursing_options": {
+                "course": [
+                    {
+                        "course_id_pair": {
+                            "client_id": "12BB4E97-AC31-46D0-B473-0A643048D3D6"
+                        },
+                        "ordinal": 1,
+                        "straight_fire": false,
+                        "event": [
+                            {
+                                "created_at": {
+                                    "date_string": "2020-03-18T16:14:15-05:00"
+                                },
+                                "event_id_pair": {
+                                    "client_id": "39D82EA9-CC17-4AFA-B919-D093A77FD89F"
+                                },
+                                "creator_details": {
+                                    "employee": {
+                                        "last_name": "Burke",
+                                        "read_only_full_name": "Sandra Burke",
+                                        "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                                        "first_name": "Sandra"
+                                    }
+                                },
+                                "event_type": "FIRE"
+                            },
+                            {
+                                "created_at": {
+                                    "date_string": "2020-03-18T16:14:15-05:00"
+                                },
+                                "event_id_pair": {
+                                    "client_id": "28065F94-77C9-407B-8BBE-879FA4732E1E"
+                                },
+                                "creator_details": {
+                                    "employee": {
+                                        "last_name": "Burke",
+                                        "read_only_full_name": "Sandra Burke",
+                                        "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                                        "first_name": "Sandra"
+                                    }
+                                },
+                                "event_type": "SEND"
+                            },
+                            {
+                                "created_at": {
+                                    "date_string": "2020-03-18T16:13:16-05:00"
+                                },
+                                "event_id_pair": {
+                                    "client_id": "040488B5-3654-4813-987A-6A788E377F84"
+                                },
+                                "creator_details": {
+                                    "employee": {
+                                        "last_name": "Burke",
+                                        "read_only_full_name": "Sandra Burke",
+                                        "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                                        "first_name": "Sandra"
+                                    }
+                                },
+                                "event_type": "CREATION"
+                            }
+                        ]
+                    },
+                    {
+                        "course_id_pair": {
+                            "client_id": "2C155F8F-DBE8-4BC2-A802-BC51F16027E3"
+                        },
+                        "ordinal": 0,
+                        "straight_fire": true,
+                        "event": [
+                            {
+                                "created_at": {
+                                    "date_string": "2020-03-18T16:13:08-05:00"
+                                },
+                                "event_id_pair": {
+                                    "client_id": "FA533A05-BE6B-4F4C-B35E-2C21E30C5DE7"
+                                },
+                                "creator_details": {
+                                    "employee": {
+                                        "last_name": "Burke",
+                                        "read_only_full_name": "Sandra Burke",
+                                        "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                                        "first_name": "Sandra"
+                                    }
+                                },
+                                "event_type": "CREATION"
+                            },
+                            {
+                                "created_at": {
+                                    "date_string": "2020-03-18T16:14:15-05:00"
+                                },
+                                "event_id_pair": {
+                                    "client_id": "91246D55-96E2-40C5-B2C2-4B5A157EA8BF"
+                                },
+                                "creator_details": {
+                                    "employee": {
+                                        "last_name": "Burke",
+                                        "read_only_full_name": "Sandra Burke",
+                                        "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                                        "first_name": "Sandra"
+                                    }
+                                },
+                                "event_type": "SEND"
+                            },
+                            {
+                                "created_at": {
+                                    "date_string": "2020-03-18T16:14:15-05:00"
+                                },
+                                "event_id_pair": {
+                                    "client_id": "9D826045-7870-41A6-A9DD-C0F971B448BF"
+                                },
+                                "creator_details": {
+                                    "employee": {
+                                        "last_name": "Burke",
+                                        "read_only_full_name": "Sandra Burke",
+                                        "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                                        "first_name": "Sandra"
+                                    }
+                                },
+                                "event_type": "FIRE"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "open_ticket": {
+                "created_at": {
+                    "date_string": "2020-03-18T16:13:07-05:00"
+                },
+                "ticket_id_pair": {
+                    "client_id": "F691C4E7-C724-465C-A6A5-05D4A07699DE"
+                },
+                "predefined_ticket": {
+                    "ticket_group": {
+                        "id": "DCVVBPBM55ZQL4ONIUEQRJGD",
+                        "name": "Outside",
+                        "ordinal": 2,
+                        "naming_method": "AUTOMATIC_NUMBERING"
+                    },
+                    "ticket_template": {
+                        "id": "WZX44ICRF5FEBALPQXHXZ2FW",
+                        "ticket_group": {
+                            "id": "DCVVBPBM55ZQL4ONIUEQRJGD",
+                            "type": {
+                                "[SQNT EXTENSIONS]": {
+                                    "101": 21
+                                }
+                            }
+                        },
+                        "name": "Outside 2",
+                        "ordinal": 1
+                    }
+                },
+                "products_opened_on": [
+                    "RESTAURANT_POS"
+                ],
+                "unit_token": "H950Y11QM2TF1",
+                "name": "Outside 2",
+                "ticket_owner": {
+                    "employee": {
+                        "last_name": "Burke",
+                        "read_only_full_name": "Burke, Sandra",
+                        "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                        "first_name": "Sandra"
+                    }
+                }
+            },
+            "bill_print_state": {
+                "read_only_printed": false
+            }
+        },
+        "line_items": {
+            "itemization": [
+                {
+                    "quantity": "1",
+                    "read_only_display_details": {
+                        "item": {
+                            "abbreviation": "Cr",
+                            "name": "Cream Cheese Danish",
+                            "cogs_object_id": "ZWJHWTNNVV2SDPQQWZWKTEUY",
+                            "color": "4AB200"
+                        }
+                    },
+                    "event": [
+                        {
+                            "created_at": {
+                                "date_string": "2020-03-18T16:13:08-05:00"
+                            },
+                            "event_id_pair": {
+                                "client_id": "895BD62A-1BE6-42ED-9630-3E4161CD5C8B"
+                            },
+                            "creator_details": {
+                                "employee": {
+                                    "last_name": "Burke",
+                                    "read_only_full_name": "Sandra Burke",
+                                    "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                                    "first_name": "Sandra"
+                                }
+                            },
+                            "event_type": "CREATION"
+                        },
+                        {
+                            "created_at": {
+                                "date_string": "2020-03-18T16:14:15-05:00"
+                            },
+                            "event_id_pair": {
+                                "client_id": "4D3F0892-D81A-4E8C-BEC8-C75F6BFE686E"
+                            },
+                            "creator_details": {
+                                "employee": {
+                                    "last_name": "Burke",
+                                    "read_only_full_name": "Sandra Burke",
+                                    "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                                    "first_name": "Sandra"
+                                }
+                            },
+                            "event_type": "FIRE"
+                        },
+                        {
+                            "created_at": {
+                                "date_string": "2020-03-18T16:14:15-05:00"
+                            },
+                            "event_id_pair": {
+                                "client_id": "0FC08047-963C-4453-A77A-5B866D1EDF2B"
+                            },
+                            "creator_details": {
+                                "employee": {
+                                    "last_name": "Burke",
+                                    "read_only_full_name": "Sandra Burke",
+                                    "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                                    "first_name": "Sandra"
+                                }
+                            },
+                            "event_type": "SEND"
+                        }
+                    ],
+                    "created_at": {
+                        "date_string": "2020-03-18T16:13:08-05:00"
+                    },
+                    "configuration": {
+                        "item_variation_price_money": {
+                            "amount": 325,
+                            "currency_code": "USD"
+                        },
+                        "backing_type": "ITEM_VARIATION",
+                        "category": {
+                            "straight_fire": "ALWAYS",
+                            "id": "XPKLM4G2AY3IE54IFJNH7QKD",
+                            "name": "Pastries",
+                            "ordinal": 0,
+                            "catalog_object_reference": {
+                                "version": 1579805497126,
+                                "catalog_object_token": "XPKLM4G2AY3IE54IFJNH7QKD"
+                            }
+                        },
+                        "selected_options": {
+                            "fee": [
+                                {
+                                    "amounts": {
+                                        "applied_money": {
+                                            "amount": 19,
+                                            "currency_code": "USD"
+                                        }
+                                    },
+                                    "read_only_display_details": {
+                                        "calculation_phase": "FEE_SUBTOTAL_PHASE",
+                                        "inclusion_type": "ADDITIVE",
+                                        "tax_type_name": "Sales Tax",
+                                        "cogs_object_id": "BCZC4ZUF4SB7F6MWGOS3DXXI",
+                                        "tax_label_order": 0,
+                                        "percentage": "6",
+                                        "name": "Sales Tax",
+                                        "tax_type_id": "us_sales_tax"
+                                    },
+                                    "fee_line_item_id_pair": {
+                                        "client_id": "BB6B0E41-5C4E-489D-8786-59737C16392A",
+                                        "server_id": "d7bff509-8b72-4543-ac72-38bf3cb955f1"
+                                    },
+                                    "created_at": {
+                                        "date_string": "2020-03-18T16:13:08-05:00"
+                                    }
+                                }
+                            ],
+                            "item_variation_details": {
+                                "display_variation_name": false,
+                                "read_only_display_details": {
+                                    "price_money": {
+                                        "amount": 325,
+                                        "currency_code": "USD"
+                                    },
+                                    "name": "Regular",
+                                    "cogs_object_id": "FWYCNOEO42MOR5XTO2V2T7A2",
+                                    "sku": "022000017871"
+                                }
+                            },
+                            "dining_option": {
+                                "backing_details": {
+                                    "dining_option": {
+                                        "id": "KWECQKMZSKEN4RTN6U45WEN2",
+                                        "name": "For Here",
+                                        "ordinal": 0,
+                                        "catalog_object_reference": {
+                                            "version": 1582747672304,
+                                            "catalog_object_token": "KWECQKMZSKEN4RTN6U45WEN2"
+                                        }
+                                    }
+                                },
+                                "application_scope": "CART_LEVEL_FIXED",
+                                "dining_option_line_item_id_pair": {
+                                    "client_id": "48872ADA-79A3-4E72-B501-5C3EFA304CB1",
+                                    "server_id": "5f16f2ae-351e-4c92-a980-258b3448a7e0"
+                                }
+                            }
+                        }
+                    },
+                    "feature_details": {
+                        "pricing_engine_state": {
+                        },
+                        "course_id_pair": {
+                            "client_id": "2C155F8F-DBE8-4BC2-A802-BC51F16027E3"
+                        }
+                    },
+                    "itemization_id_pair": {
+                        "client_id": "F8825E82-7F2B-4AC1-B8F9-DA39031AA94F",
+                        "server_id": "AhHjo2heyqL7DxVHeKs5S"
+                    },
+                    "quantity_entry_type": "MANUALLY_ENTERED",
+                    "amounts": {
+                        "total_money": {
+                            "amount": 344,
+                            "currency_code": "USD"
+                        },
+                        "item_variation_price_money": {
+                            "amount": 325,
+                            "currency_code": "USD"
+                        },
+                        "item_variation_price_times_quantity_money": {
+                            "amount": 325,
+                            "currency_code": "USD"
+                        },
+                        "discount_money": {
+                            "amount": 0,
+                            "currency_code": "USD"
+                        },
+                        "tax_money": {
+                            "amount": 19,
+                            "currency_code": "USD"
+                        }
+                    }
+                },
+                {
+                    "quantity": "1",
+                    "read_only_display_details": {
+                        "item": {
+                            "abbreviation": "Le",
+                            "name": "Lemon Cake",
+                            "cogs_object_id": "TWCWE5S4R64IKKLEG45LPHES",
+                            "color": "4AB200"
+                        }
+                    },
+                    "event": [
+                        {
+                            "created_at": {
+                                "date_string": "2020-03-18T16:13:09-05:00"
+                            },
+                            "event_id_pair": {
+                                "client_id": "2B463E6B-FDEA-483F-8181-4FFD0F17B48A"
+                            },
+                            "creator_details": {
+                                "employee": {
+                                    "last_name": "Burke",
+                                    "read_only_full_name": "Sandra Burke",
+                                    "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                                    "first_name": "Sandra"
+                                }
+                            },
+                            "event_type": "CREATION"
+                        },
+                        {
+                            "created_at": {
+                                "date_string": "2020-03-18T16:14:15-05:00"
+                            },
+                            "event_id_pair": {
+                                "client_id": "9C603775-C755-42F5-8221-8385C2A6A4DD"
+                            },
+                            "creator_details": {
+                                "employee": {
+                                    "last_name": "Burke",
+                                    "read_only_full_name": "Sandra Burke",
+                                    "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                                    "first_name": "Sandra"
+                                }
+                            },
+                            "event_type": "FIRE"
+                        },
+                        {
+                            "created_at": {
+                                "date_string": "2020-03-18T16:14:15-05:00"
+                            },
+                            "event_id_pair": {
+                                "client_id": "6AC75AE3-9290-43E8-8338-0D5E55C66C15"
+                            },
+                            "creator_details": {
+                                "employee": {
+                                    "last_name": "Burke",
+                                    "read_only_full_name": "Sandra Burke",
+                                    "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                                    "first_name": "Sandra"
+                                }
+                            },
+                            "event_type": "SEND"
+                        }
+                    ],
+                    "created_at": {
+                        "date_string": "2020-03-18T16:13:09-05:00"
+                    },
+                    "configuration": {
+                        "item_variation_price_money": {
+                            "amount": 350,
+                            "currency_code": "USD"
+                        },
+                        "backing_type": "ITEM_VARIATION",
+                        "category": {
+                            "straight_fire": "ALWAYS",
+                            "id": "XPKLM4G2AY3IE54IFJNH7QKD",
+                            "name": "Pastries",
+                            "ordinal": 0,
+                            "catalog_object_reference": {
+                                "version": 1579805497126,
+                                "catalog_object_token": "XPKLM4G2AY3IE54IFJNH7QKD"
+                            }
+                        },
+                        "selected_options": {
+                            "fee": [
+                                {
+                                    "amounts": {
+                                        "applied_money": {
+                                            "amount": 21,
+                                            "currency_code": "USD"
+                                        }
+                                    },
+                                    "read_only_display_details": {
+                                        "calculation_phase": "FEE_SUBTOTAL_PHASE",
+                                        "inclusion_type": "ADDITIVE",
+                                        "tax_type_name": "Sales Tax",
+                                        "cogs_object_id": "BCZC4ZUF4SB7F6MWGOS3DXXI",
+                                        "tax_label_order": 0,
+                                        "percentage": "6",
+                                        "name": "Sales Tax",
+                                        "tax_type_id": "us_sales_tax"
+                                    },
+                                    "fee_line_item_id_pair": {
+                                        "client_id": "B15E29CA-B2BA-4ECD-A882-3285F8061CB0",
+                                        "server_id": "22deb6bc-539f-4429-9e34-beaf5a5cac00"
+                                    },
+                                    "created_at": {
+                                        "date_string": "2020-03-18T16:13:08-05:00"
+                                    }
+                                }
+                            ],
+                            "item_variation_details": {
+                                "display_variation_name": false,
+                                "read_only_display_details": {
+                                    "price_money": {
+                                        "amount": 350,
+                                        "currency_code": "USD"
+                                    },
+                                    "name": "Regular",
+                                    "cogs_object_id": "UKK4FNJ72YMMEQ5BTHEI7D26",
+                                    "sku": "681131123037"
+                                }
+                            },
+                            "dining_option": {
+                                "backing_details": {
+                                    "dining_option": {
+                                        "id": "KWECQKMZSKEN4RTN6U45WEN2",
+                                        "name": "For Here",
+                                        "ordinal": 0,
+                                        "catalog_object_reference": {
+                                            "version": 1582747672304,
+                                            "catalog_object_token": "KWECQKMZSKEN4RTN6U45WEN2"
+                                        }
+                                    }
+                                },
+                                "application_scope": "CART_LEVEL_FIXED",
+                                "dining_option_line_item_id_pair": {
+                                    "client_id": "48872ADA-79A3-4E72-B501-5C3EFA304CB1",
+                                    "server_id": "409dbf25-30f4-4f7a-b7f6-0fac03a13299"
+                                }
+                            }
+                        }
+                    },
+                    "feature_details": {
+                        "pricing_engine_state": {
+                        },
+                        "course_id_pair": {
+                            "client_id": "2C155F8F-DBE8-4BC2-A802-BC51F16027E3"
+                        }
+                    },
+                    "itemization_id_pair": {
+                        "client_id": "F6E0AD54-9CD9-474F-9E42-5A23AD49156F",
+                        "server_id": "GSYsYBXPP1owPZNsHut5S"
+                    },
+                    "quantity_entry_type": "MANUALLY_ENTERED",
+                    "amounts": {
+                        "total_money": {
+                            "amount": 371,
+                            "currency_code": "USD"
+                        },
+                        "item_variation_price_money": {
+                            "amount": 350,
+                            "currency_code": "USD"
+                        },
+                        "item_variation_price_times_quantity_money": {
+                            "amount": 350,
+                            "currency_code": "USD"
+                        },
+                        "discount_money": {
+                            "amount": 0,
+                            "currency_code": "USD"
+                        },
+                        "tax_money": {
+                            "amount": 21,
+                            "currency_code": "USD"
+                        }
+                    }
+                },
+                {
+                    "quantity": "1",
+                    "read_only_display_details": {
+                        "item": {
+                            "abbreviation": "Sw",
+                            "name": "Sweet Tea",
+                            "cogs_object_id": "ON3REWE55VI4WHCKCLRKX7VP",
+                            "color": "E5457A"
+                        }
+                    },
+                    "event": [
+                        {
+                            "created_at": {
+                                "date_string": "2020-03-18T16:13:11-05:00"
+                            },
+                            "event_id_pair": {
+                                "client_id": "591559FE-C704-4DB3-9DC9-83D7FBE5CE58"
+                            },
+                            "creator_details": {
+                                "employee": {
+                                    "last_name": "Burke",
+                                    "read_only_full_name": "Sandra Burke",
+                                    "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                                    "first_name": "Sandra"
+                                }
+                            },
+                            "event_type": "CREATION"
+                        },
+                        {
+                            "created_at": {
+                                "date_string": "2020-03-18T16:14:15-05:00"
+                            },
+                            "event_id_pair": {
+                                "client_id": "F508491C-0449-40D9-87B7-BCCC97676158"
+                            },
+                            "creator_details": {
+                                "employee": {
+                                    "last_name": "Burke",
+                                    "read_only_full_name": "Sandra Burke",
+                                    "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                                    "first_name": "Sandra"
+                                }
+                            },
+                            "event_type": "FIRE"
+                        },
+                        {
+                            "created_at": {
+                                "date_string": "2020-03-18T16:14:15-05:00"
+                            },
+                            "event_id_pair": {
+                                "client_id": "3DA35CE6-CE7A-4102-BB6B-732658F8A045"
+                            },
+                            "creator_details": {
+                                "employee": {
+                                    "last_name": "Burke",
+                                    "read_only_full_name": "Sandra Burke",
+                                    "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                                    "first_name": "Sandra"
+                                }
+                            },
+                            "event_type": "SEND"
+                        }
+                    ],
+                    "created_at": {
+                        "date_string": "2020-03-18T16:13:11-05:00"
+                    },
+                    "configuration": {
+                        "item_variation_price_money": {
+                            "amount": 225,
+                            "currency_code": "USD"
+                        },
+                        "backing_type": "ITEM_VARIATION",
+                        "category": {
+                            "straight_fire": "ALWAYS",
+                            "id": "X4OXQBLZQOJ6DVJEMK3JIEVB",
+                            "name": "Non-Alcoholic Beverages",
+                            "ordinal": 0,
+                            "catalog_object_reference": {
+                                "version": 1575479810633,
+                                "catalog_object_token": "X4OXQBLZQOJ6DVJEMK3JIEVB"
+                            }
+                        },
+                        "selected_options": {
+                            "fee": [
+                                {
+                                    "amounts": {
+                                        "applied_money": {
+                                            "amount": 14,
+                                            "currency_code": "USD"
+                                        }
+                                    },
+                                    "read_only_display_details": {
+                                        "calculation_phase": "FEE_SUBTOTAL_PHASE",
+                                        "inclusion_type": "ADDITIVE",
+                                        "tax_type_name": "Sales Tax",
+                                        "cogs_object_id": "BCZC4ZUF4SB7F6MWGOS3DXXI",
+                                        "tax_label_order": 0,
+                                        "percentage": "6",
+                                        "name": "Sales Tax",
+                                        "tax_type_id": "us_sales_tax"
+                                    },
+                                    "fee_line_item_id_pair": {
+                                        "client_id": "6C732A80-C6C9-420F-B0E2-6ECEEC3C9A10",
+                                        "server_id": "c20a9db6-a700-4b1e-9af8-d98720be2f5c"
+                                    },
+                                    "created_at": {
+                                        "date_string": "2020-03-18T16:13:08-05:00"
+                                    }
+                                }
+                            ],
+                            "item_variation_details": {
+                                "display_variation_name": false,
+                                "read_only_display_details": {
+                                    "price_money": {
+                                        "amount": 225,
+                                        "currency_code": "USD"
+                                    },
+                                    "name": "Regular",
+                                    "cogs_object_id": "XT722L2RZNZ4QQUVCS6XO5KK",
+                                    "sku": "037000158493"
+                                }
+                            },
+                            "dining_option": {
+                                "backing_details": {
+                                    "dining_option": {
+                                        "id": "KWECQKMZSKEN4RTN6U45WEN2",
+                                        "name": "For Here",
+                                        "ordinal": 0,
+                                        "catalog_object_reference": {
+                                            "version": 1582747672304,
+                                            "catalog_object_token": "KWECQKMZSKEN4RTN6U45WEN2"
+                                        }
+                                    }
+                                },
+                                "application_scope": "CART_LEVEL_FIXED",
+                                "dining_option_line_item_id_pair": {
+                                    "client_id": "48872ADA-79A3-4E72-B501-5C3EFA304CB1",
+                                    "server_id": "43c2b012-b677-4b66-b6ca-7bfa19144fb7"
+                                }
+                            }
+                        }
+                    },
+                    "feature_details": {
+                        "seating": {
+                            "destination": {
+                                "type": "SEAT",
+                                "created_at": {
+                                    "date_string": "2020-03-18T16:13:11-05:00"
+                                },
+                                "seat_id_pair": [
+                                    {
+                                        "client_id": "FB6E8652-B362-49B7-AD6C-4522CA75CF26"
+                                    }
+                                ]
+                            }
+                        },
+                        "pricing_engine_state": {
+                        },
+                        "course_id_pair": {
+                            "client_id": "2C155F8F-DBE8-4BC2-A802-BC51F16027E3"
+                        }
+                    },
+                    "itemization_id_pair": {
+                        "client_id": "9A6ABB44-0CB2-471A-AD4D-D9EEA1B10BBA",
+                        "server_id": "WUX7ZQUcI8by5QZHSSu5S"
+                    },
+                    "quantity_entry_type": "MANUALLY_ENTERED",
+                    "amounts": {
+                        "total_money": {
+                            "amount": 239,
+                            "currency_code": "USD"
+                        },
+                        "item_variation_price_money": {
+                            "amount": 225,
+                            "currency_code": "USD"
+                        },
+                        "item_variation_price_times_quantity_money": {
+                            "amount": 225,
+                            "currency_code": "USD"
+                        },
+                        "discount_money": {
+                            "amount": 0,
+                            "currency_code": "USD"
+                        },
+                        "tax_money": {
+                            "amount": 14,
+                            "currency_code": "USD"
+                        }
+                    }
+                },
+                {
+                    "quantity": "1",
+                    "read_only_display_details": {
+                        "item": {
+                            "abbreviation": "So",
+                            "name": "Soda",
+                            "cogs_object_id": "RDB4KFYR73QNASGIWOH6MHYQ",
+                            "color": "E5457A"
+                        }
+                    },
+                    "event": [
+                        {
+                            "created_at": {
+                                "date_string": "2020-03-18T16:13:14-05:00"
+                            },
+                            "event_id_pair": {
+                                "client_id": "893977EC-C262-4798-BD3D-7F59A5CA76AA"
+                            },
+                            "creator_details": {
+                                "employee": {
+                                    "last_name": "Burke",
+                                    "read_only_full_name": "Sandra Burke",
+                                    "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                                    "first_name": "Sandra"
+                                }
+                            },
+                            "event_type": "CREATION"
+                        },
+                        {
+                            "created_at": {
+                                "date_string": "2020-03-18T16:14:15-05:00"
+                            },
+                            "event_id_pair": {
+                                "client_id": "6492B56B-E670-447C-A55C-1A806C66A010"
+                            },
+                            "creator_details": {
+                                "employee": {
+                                    "last_name": "Burke",
+                                    "read_only_full_name": "Sandra Burke",
+                                    "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                                    "first_name": "Sandra"
+                                }
+                            },
+                            "event_type": "FIRE"
+                        },
+                        {
+                            "created_at": {
+                                "date_string": "2020-03-18T16:14:15-05:00"
+                            },
+                            "event_id_pair": {
+                                "client_id": "48B36BB7-80F1-4288-972D-48C6EAF04357"
+                            },
+                            "creator_details": {
+                                "employee": {
+                                    "last_name": "Burke",
+                                    "read_only_full_name": "Sandra Burke",
+                                    "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                                    "first_name": "Sandra"
+                                }
+                            },
+                            "event_type": "SEND"
+                        }
+                    ],
+                    "created_at": {
+                        "date_string": "2020-03-18T16:13:14-05:00"
+                    },
+                    "configuration": {
+                        "item_variation_price_money": {
+                            "amount": 225,
+                            "currency_code": "USD"
+                        },
+                        "backing_type": "ITEM_VARIATION",
+                        "category": {
+                            "straight_fire": "ALWAYS",
+                            "id": "X4OXQBLZQOJ6DVJEMK3JIEVB",
+                            "name": "Non-Alcoholic Beverages",
+                            "ordinal": 0,
+                            "catalog_object_reference": {
+                                "version": 1575479810633,
+                                "catalog_object_token": "X4OXQBLZQOJ6DVJEMK3JIEVB"
+                            }
+                        },
+                        "selected_options": {
+                            "fee": [
+                                {
+                                    "amounts": {
+                                        "applied_money": {
+                                            "amount": 13,
+                                            "currency_code": "USD"
+                                        }
+                                    },
+                                    "read_only_display_details": {
+                                        "calculation_phase": "FEE_SUBTOTAL_PHASE",
+                                        "inclusion_type": "ADDITIVE",
+                                        "tax_type_name": "Sales Tax",
+                                        "cogs_object_id": "BCZC4ZUF4SB7F6MWGOS3DXXI",
+                                        "tax_label_order": 0,
+                                        "percentage": "6",
+                                        "name": "Sales Tax",
+                                        "tax_type_id": "us_sales_tax"
+                                    },
+                                    "fee_line_item_id_pair": {
+                                        "client_id": "00A755A0-AD03-4E3A-AA27-CA288E8E4D8B",
+                                        "server_id": "777e7362-5635-48b9-879e-8afec1f2c15d"
+                                    },
+                                    "created_at": {
+                                        "date_string": "2020-03-18T16:13:08-05:00"
+                                    }
+                                }
+                            ],
+                            "item_variation_details": {
+                                "display_variation_name": true,
+                                "read_only_display_details": {
+                                    "name": "Dr. Pepper",
+                                    "price_money": {
+                                        "amount": 225,
+                                        "currency_code": "USD"
+                                    },
+                                    "cogs_object_id": "4OVWQ4N2YZ5NM6CDYOUO7ULC"
+                                }
+                            },
+                            "dining_option": {
+                                "backing_details": {
+                                    "dining_option": {
+                                        "id": "KWECQKMZSKEN4RTN6U45WEN2",
+                                        "name": "For Here",
+                                        "ordinal": 0,
+                                        "catalog_object_reference": {
+                                            "version": 1582747672304,
+                                            "catalog_object_token": "KWECQKMZSKEN4RTN6U45WEN2"
+                                        }
+                                    }
+                                },
+                                "application_scope": "CART_LEVEL_FIXED",
+                                "dining_option_line_item_id_pair": {
+                                    "client_id": "48872ADA-79A3-4E72-B501-5C3EFA304CB1",
+                                    "server_id": "a77fa6cc-0d01-4a2d-b646-56c6ca547ed4"
+                                }
+                            }
+                        }
+                    },
+                    "feature_details": {
+                        "seating": {
+                            "destination": {
+                                "type": "SEAT",
+                                "created_at": {
+                                    "date_string": "2020-03-18T16:13:14-05:00"
+                                },
+                                "seat_id_pair": [
+                                    {
+                                        "client_id": "59C3D577-5EC3-450A-AA0F-13425E4DA876"
+                                    }
+                                ]
+                            }
+                        },
+                        "pricing_engine_state": {
+                        },
+                        "course_id_pair": {
+                            "client_id": "2C155F8F-DBE8-4BC2-A802-BC51F16027E3"
+                        }
+                    },
+                    "itemization_id_pair": {
+                        "client_id": "35B574BB-5C7E-409F-88A1-817D668603E5",
+                        "server_id": "klIDwh2r7wozhAKtaKC6S"
+                    },
+                    "quantity_entry_type": "MANUALLY_ENTERED",
+                    "amounts": {
+                        "total_money": {
+                            "amount": 238,
+                            "currency_code": "USD"
+                        },
+                        "item_variation_price_money": {
+                            "amount": 225,
+                            "currency_code": "USD"
+                        },
+                        "item_variation_price_times_quantity_money": {
+                            "amount": 225,
+                            "currency_code": "USD"
+                        },
+                        "discount_money": {
+                            "amount": 0,
+                            "currency_code": "USD"
+                        },
+                        "tax_money": {
+                            "amount": 13,
+                            "currency_code": "USD"
+                        }
+                    }
+                },
+                {
+                    "quantity": "1",
+                    "read_only_display_details": {
+                        "item": {
+                            "abbreviation": "Ch",
+                            "name": "Chocolate Cake",
+                            "cogs_object_id": "LXDQG43G4A5GCIQEISGYG5WE",
+                            "color": "13B1BF"
+                        }
+                    },
+                    "event": [
+                        {
+                            "created_at": {
+                                "date_string": "2020-03-18T16:13:16-05:00"
+                            },
+                            "event_id_pair": {
+                                "client_id": "AA77E6AE-91E0-4603-AC5A-4F94A83EF160"
+                            },
+                            "creator_details": {
+                                "employee": {
+                                    "last_name": "Burke",
+                                    "read_only_full_name": "Sandra Burke",
+                                    "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                                    "first_name": "Sandra"
+                                }
+                            },
+                            "event_type": "CREATION"
+                        },
+                        {
+                            "created_at": {
+                                "date_string": "2020-03-18T16:14:15-05:00"
+                            },
+                            "event_id_pair": {
+                                "client_id": "C5E1E979-728B-42C6-860B-DF27D698C7F4"
+                            },
+                            "creator_details": {
+                                "employee": {
+                                    "last_name": "Burke",
+                                    "read_only_full_name": "Sandra Burke",
+                                    "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                                    "first_name": "Sandra"
+                                }
+                            },
+                            "event_type": "FIRE"
+                        },
+                        {
+                            "created_at": {
+                                "date_string": "2020-03-18T16:14:15-05:00"
+                            },
+                            "event_id_pair": {
+                                "client_id": "64D9B0A6-5B1A-456D-839B-22A8D8F4C8A0"
+                            },
+                            "creator_details": {
+                                "employee": {
+                                    "last_name": "Burke",
+                                    "read_only_full_name": "Sandra Burke",
+                                    "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                                    "first_name": "Sandra"
+                                }
+                            },
+                            "event_type": "SEND"
+                        }
+                    ],
+                    "created_at": {
+                        "date_string": "2020-03-18T16:13:16-05:00"
+                    },
+                    "configuration": {
+                        "item_variation_price_money": {
+                            "amount": 450,
+                            "currency_code": "USD"
+                        },
+                        "backing_type": "ITEM_VARIATION",
+                        "category": {
+                            "straight_fire": "NEVER",
+                            "id": "4FZTAYOY3THPH4IGXCXIHSGI",
+                            "name": "Desserts",
+                            "ordinal": 0,
+                            "catalog_object_reference": {
+                                "version": 1584379911800,
+                                "catalog_object_token": "4FZTAYOY3THPH4IGXCXIHSGI"
+                            }
+                        },
+                        "selected_options": {
+                            "fee": [
+                                {
+                                    "amounts": {
+                                        "applied_money": {
+                                            "amount": 27,
+                                            "currency_code": "USD"
+                                        }
+                                    },
+                                    "read_only_display_details": {
+                                        "calculation_phase": "FEE_SUBTOTAL_PHASE",
+                                        "inclusion_type": "ADDITIVE",
+                                        "tax_type_name": "Sales Tax",
+                                        "cogs_object_id": "BCZC4ZUF4SB7F6MWGOS3DXXI",
+                                        "tax_label_order": 0,
+                                        "percentage": "6",
+                                        "name": "Sales Tax",
+                                        "tax_type_id": "us_sales_tax"
+                                    },
+                                    "fee_line_item_id_pair": {
+                                        "client_id": "8D35A6C9-3342-46E5-A778-B7FF54063786",
+                                        "server_id": "05e9055f-643a-4854-ab10-b893115c97ed"
+                                    },
+                                    "created_at": {
+                                        "date_string": "2020-03-18T16:13:08-05:00"
+                                    }
+                                }
+                            ],
+                            "item_variation_details": {
+                                "display_variation_name": false,
+                                "read_only_display_details": {
+                                    "price_money": {
+                                        "amount": 450,
+                                        "currency_code": "USD"
+                                    },
+                                    "name": "Regular",
+                                    "cogs_object_id": "4C5CMHZDCMVMIRGWRXPF75PU",
+                                    "sku": "011110025333"
+                                }
+                            },
+                            "dining_option": {
+                                "backing_details": {
+                                    "dining_option": {
+                                        "id": "KWECQKMZSKEN4RTN6U45WEN2",
+                                        "name": "For Here",
+                                        "ordinal": 0,
+                                        "catalog_object_reference": {
+                                            "version": 1582747672304,
+                                            "catalog_object_token": "KWECQKMZSKEN4RTN6U45WEN2"
+                                        }
+                                    }
+                                },
+                                "application_scope": "CART_LEVEL_FIXED",
+                                "dining_option_line_item_id_pair": {
+                                    "client_id": "48872ADA-79A3-4E72-B501-5C3EFA304CB1",
+                                    "server_id": "da31e7d9-eb63-443a-bc66-91b139e378de"
+                                }
+                            }
+                        }
+                    },
+                    "feature_details": {
+                        "pricing_engine_state": {
+                        },
+                        "course_id_pair": {
+                            "client_id": "12BB4E97-AC31-46D0-B473-0A643048D3D6"
+                        }
+                    },
+                    "itemization_id_pair": {
+                        "client_id": "43CFBE6E-CADF-4EE0-ADA4-224E6205DE67",
+                        "server_id": "eOuLikUBhpiPDtD92lt5S"
+                    },
+                    "quantity_entry_type": "MANUALLY_ENTERED",
+                    "amounts": {
+                        "total_money": {
+                            "amount": 477,
+                            "currency_code": "USD"
+                        },
+                        "item_variation_price_money": {
+                            "amount": 450,
+                            "currency_code": "USD"
+                        },
+                        "item_variation_price_times_quantity_money": {
+                            "amount": 450,
+                            "currency_code": "USD"
+                        },
+                        "discount_money": {
+                            "amount": 0,
+                            "currency_code": "USD"
+                        },
+                        "tax_money": {
+                            "amount": 27,
+                            "currency_code": "USD"
+                        }
+                    }
+                },
+                {
+                    "quantity": "1",
+                    "read_only_display_details": {
+                        "item": {
+                            "name": "Gift Card",
+                            "abbreviation": "Gi",
+                            "cogs_object_id": "RQCustomItemProduct-F61B18E4-CB35-49D0-9721-35A78980574A"
+                        }
+                    },
+                    "event": [
+                        {
+                            "created_at": {
+                                "date_string": "2020-03-18T16:14:08-05:00"
+                            },
+                            "event_id_pair": {
+                                "client_id": "AE8089D8-65EF-401D-8B9F-1AFB7CCC7D26"
+                            },
+                            "creator_details": {
+                                "employee": {
+                                    "last_name": "Burke",
+                                    "read_only_full_name": "Sandra Burke",
+                                    "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                                    "first_name": "Sandra"
+                                }
+                            },
+                            "event_type": "CREATION"
+                        },
+                        {
+                            "created_at": {
+                                "date_string": "2020-03-18T16:14:15-05:00"
+                            },
+                            "event_id_pair": {
+                                "client_id": "7709E03D-3255-47CB-8F97-79D339792F2E"
+                            },
+                            "creator_details": {
+                                "employee": {
+                                    "last_name": "Burke",
+                                    "read_only_full_name": "Sandra Burke",
+                                    "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                                    "first_name": "Sandra"
+                                }
+                            },
+                            "event_type": "SEND"
+                        }
+                    ],
+                    "created_at": {
+                        "date_string": "2020-03-18T16:14:08-05:00"
+                    },
+                    "configuration": {
+                        "selected_options": {
+                            "item_variation_details": {
+                                "gift_card_details": {
+                                    "activity_type": "RELOAD",
+                                    "pan_suffix": "0010",
+                                    "gift_card_server_id": "00a2730e6384448cbeee2ab300c7de96"
+                                },
+                                "display_variation_name": false,
+                                "read_only_display_details": {
+                                    "price_money": {
+                                        "amount": 5000,
+                                        "currency_code": "USD"
+                                    },
+                                    "cogs_object_id": "RQCustomItemProductVariation-673BDA16-2C3C-4F12-A91F-002B0D517051"
+                                }
+                            },
+                            "dining_option": {
+                                "backing_details": {
+                                    "dining_option": {
+                                        "id": "KWECQKMZSKEN4RTN6U45WEN2",
+                                        "name": "For Here",
+                                        "ordinal": 0,
+                                        "catalog_object_reference": {
+                                            "version": 1582747672304,
+                                            "catalog_object_token": "KWECQKMZSKEN4RTN6U45WEN2"
+                                        }
+                                    }
+                                },
+                                "application_scope": "CART_LEVEL_FIXED",
+                                "dining_option_line_item_id_pair": {
+                                    "client_id": "48872ADA-79A3-4E72-B501-5C3EFA304CB1",
+                                    "server_id": "86684501-050d-4ae4-9926-f60bf78ccd9b"
+                                }
+                            }
+                        },
+                        "backing_type": "CUSTOM_ITEM_VARIATION",
+                        "item_variation_price_money": {
+                            "amount": 5000,
+                            "currency_code": "USD"
+                        }
+                    },
+                    "feature_details": {
+                    },
+                    "itemization_id_pair": {
+                        "client_id": "BD86CCBB-1B8C-42A0-BF5C-A9ACF131F445",
+                        "server_id": "IzWn6v5RGYkDwOTgxds5S"
+                    },
+                    "quantity_entry_type": "MANUALLY_ENTERED",
+                    "amounts": {
+                        "total_money": {
+                            "amount": 5000,
+                            "currency_code": "USD"
+                        },
+                        "item_variation_price_money": {
+                            "amount": 5000,
+                            "currency_code": "USD"
+                        },
+                        "item_variation_price_times_quantity_money": {
+                            "amount": 5000,
+                            "currency_code": "USD"
+                        },
+                        "discount_money": {
+                            "amount": 0,
+                            "currency_code": "USD"
+                        },
+                        "tax_money": {
+                            "amount": 0,
+                            "currency_code": "USD"
+                        }
+                    }
+                }
+            ],
+            "default_dining_option": {
+                "backing_details": {
+                    "dining_option": {
+                        "id": "KWECQKMZSKEN4RTN6U45WEN2",
+                        "name": "For Here",
+                        "ordinal": 0,
+                        "catalog_object_reference": {
+                            "version": 1582747672304,
+                            "catalog_object_token": "KWECQKMZSKEN4RTN6U45WEN2"
+                        }
+                    }
+                },
+                "application_scope": "CART_LEVEL",
+                "dining_option_line_item_id_pair": {
+                    "client_id": "48872ADA-79A3-4E72-B501-5C3EFA304CB1",
+                    "server_id": "52435aa7-2da7-4cf7-9107-49869758ce37"
+                }
+            },
+            "surcharge": [
+                {
+                    "amounts": {
+                        "applied_money": {
+                            "amount": 167,
+                            "currency_code": "USD"
+                        }
+                    },
+                    "backing_details": {
+                        "surcharge": {
+                            "id": "M35L33Y3FOPSOVHZ3C5TWOL4",
+                            "percentage": "10",
+                            "taxable": false,
+                            "type": "AUTO_GRATUITY",
+                            "calculation_phase": "SURCHARGE_TOTAL_PHASE",
+                            "auto_gratuity": {
+                                "auto_enable_type": "MINIMUM_SEAT_COUNT",
+                                "minimum_seat_count": 3
+                            }
+                        }
+                    },
+                    "write_only_deleted": false,
+                    "surcharge_line_item_id_pair": {
+                        "client_id": "12E695B6-19C2-459E-B4CB-000407B34DE9",
+                        "server_id": "616f976f-7add-4d04-a79a-a0bb56199089"
+                    }
+                }
+            ],
+            "fee": [
+                {
+                    "amounts": {
+                        "applied_money": {
+                            "amount": 94,
+                            "currency_code": "USD"
+                        },
+                        "applied_to_money": {
+                            "amount": 1575,
+                            "currency_code": "USD"
+                        },
+                        "after_application_total_money": {
+                            "amount": 1669,
+                            "currency_code": "USD"
+                        }
+                    },
+                    "read_only_display_details": {
+                        "calculation_phase": "FEE_SUBTOTAL_PHASE",
+                        "inclusion_type": "ADDITIVE",
+                        "tax_type_name": "Sales Tax",
+                        "cogs_object_id": "BCZC4ZUF4SB7F6MWGOS3DXXI",
+                        "tax_label_order": 0,
+                        "percentage": "6",
+                        "name": "Sales Tax",
+                        "tax_type_id": "us_sales_tax"
+                    },
+                    "fee_line_item_id_pair": {
+                        "client_id": "A4357033-D06A-45CA-BDBE-CBA7CE8DA346",
+                        "server_id": "1bf192ba-c9f7-4d41-9cfb-6c3dd1eecef0"
+                    },
+                    "created_at": {
+                        "date_string": "2020-03-18T16:13:08-05:00"
+                    }
+                }
+            ]
+        },
+        "amount_details": {
+            "net": {
+                "total_money": {
+                    "amount": 6836,
+                    "currency_code": "USD"
+                },
+                "surcharge_money": {
+                    "amount": 167,
+                    "currency_code": "USD"
+                },
+                "tip_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "discount_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "tax_money": {
+                    "amount": 94,
+                    "currency_code": "USD"
+                }
+            },
+            "return": {
+                "total_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "surcharge_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "tip_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "discount_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "tax_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                }
+            },
+            "sale": {
+                "total_money": {
+                    "amount": 6836,
+                    "currency_code": "USD"
+                },
+                "surcharge_money": {
+                    "amount": 167,
+                    "currency_code": "USD"
+                },
+                "tip_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "discount_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "tax_money": {
+                    "amount": 94,
+                    "currency_code": "USD"
+                }
+            }
+        }
+    },
+    "merchant": {
+        "read_only_photo_url": "https://square-web-staging-f.squarecdn.com/files/ee962b084edba69cac8f73fc1b98b9b80fd8aee6/original.jpeg",
+        "read_only_business_name": "Bistro Haus",
+        "merchant_token": "H950Y11QM2TF1"
+    },
+    "square_product": "REGISTER",
+    "dates": {
+        "created_at": {
+            "date_string": "2020-03-18T21:14:16Z"
+        },
+        "completed_at": {
+            "date_string": "2020-03-18T21:14:21Z"
+        }
+    },
+    "bill_id_pair": {
+        "client_id": "0AF68A1E-9A12-4527-8F55-EF33C0303ACC",
+        "server_id": "EUgNxmzM7R7E2yR5KnUoA2eeV"
+    },
+    "read_only_loyalty_details": {
+        "account_contact": {
+        },
+        "reason": "BUYER_DECLINED",
+        "new_enrollment": false,
+        "stars_earned": 0,
+        "rewards_earned": 0
+    }
+}

@@ -1,0 +1,516 @@
+{
+    "tender": [
+        {
+            "creator_details": {
+                "employee": {
+                    "last_name": "Colter",
+                    "read_only_full_name": "Colter, Linda",
+                    "employee_token": "Bz-_op2vV0dJTUvK-dJm",
+                    "first_name": "Linda"
+                },
+                "device_credential": {
+                    "token": "2GV401RB12DXZ",
+                    "name": "A-MO"
+                }
+            },
+            "read_only_contact_token": "9FEGZD72F93QVBPTKM3NE8AV3R",
+            "amounts": {
+                "total_money": {
+                    "amount": 10100,
+                    "currency_code": "USD"
+                },
+                "surcharge_money": {
+                    "amount": 10000,
+                    "currency_code": "USD"
+                },
+                "auto_gratuity_percentage": "0"
+            },
+            "type": "CASH",
+            "tendered_at": {
+                "date_string": "2020-03-18T15:06:39-05:00"
+            },
+            "read_only_loyalty_details": {
+                "account_contact": {
+                },
+                "reason": "UNKNOWN",
+                "new_enrollment": false,
+                "stars_earned": 0,
+                "rewards_earned": 0
+            },
+            "extra_tender_details": {
+            },
+            "client_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:3178B70D-D927-4871-99C6-C9E04FFB8D8A",
+                "app_version": "5.36"
+            },
+            "read_only_state": "SETTLED",
+            "read_only_receipt_number": "RpRM",
+            "read_only_last_refundable_at": {
+                "date_string": "2020-07-16T15:06:39-05:00"
+            },
+            "tender_id_pair": {
+                "client_id": "3084E759-8B3D-4EDF-89FE-167CA9F6128C",
+                "server_id": "RpRMgpNCJcoNiCCAiuhBLQB"
+            },
+            "method": {
+                "cash_tender": {
+                    "amounts": {
+                        "change_back_money": {
+                            "amount": 400,
+                            "currency_code": "USD"
+                        },
+                        "buyer_tendered_money": {
+                            "amount": 10500,
+                            "currency_code": "USD"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "order": {
+        "service_charges": [
+            {
+                "calculation_phase": "TOTAL_PHASE",
+                "taxable": false,
+                "uid": "28A6B394-41E6-4EA3-8BCD-5709736CD800",
+                "total_money": {
+                    "amount": 10000,
+                    "currency": "USD"
+                },
+                "total_tax_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                },
+                "amount_money": {
+                    "amount": 10000,
+                    "currency": "USD"
+                },
+                "applied_money": {
+                    "amount": 10000,
+                    "currency": "USD"
+                },
+                "name": "Shipping",
+                "type": "CUSTOM"
+            }
+        ],
+        "source": {
+            "name": "Point of Sale"
+        },
+        "tenders_finalized": true,
+        "updated_at": "2020-03-18T20:07:30.666Z",
+        "fulfillments": [
+            {
+                "state": "PROPOSED",
+                "uid": "9OPRH4EhID3qY3esFVYmW",
+                "type": "SHIPMENT",
+                "line_item_application": "ALL",
+                "shipment_details": {
+                    "recipient": {
+                        "customer_id": "9FEGZD72F93QVBPTKM3NE8AV3R",
+                        "email_address": "acook@squareup.com",
+                        "display_name": "Tester Testingson",
+                        "phone_number": "+19312520427",
+                        "address": {
+                            "administrative_district_level_1": "New Jersey",
+                            "locality": "Newark",
+                            "country": "US",
+                            "address_line_1": "866 Jersey Harrison",
+                            "postal_code": "07029"
+                        }
+                    },
+                    "placed_at": "2020-03-18T20:06:42.883Z"
+                }
+            }
+        ],
+        "line_items": [
+            {
+                "base_price_money": {
+                    "amount": 100,
+                    "currency": "USD"
+                },
+                "quantity": "1",
+                "catalog_object_id": "DE2DEVW2672OOZSUZMZAZ47P",
+                "uid": "DA863BAA-3A24-4251-A890-5E2FFEEAC2BF",
+                "total_money": {
+                    "amount": 100,
+                    "currency": "USD"
+                },
+                "total_discount_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                },
+                "sku": "",
+                "catalog_object_version": 1583772265656,
+                "variation_total_price_money": {
+                    "amount": 100,
+                    "currency": "USD"
+                },
+                "catalog_category_id": "O6DHSTR7U77SV43DMGR446MR",
+                "gross_sales_money": {
+                    "amount": 100,
+                    "currency": "USD"
+                },
+                "catalog_item_id": "FGAAJOPX3UCEL6B636L2SRDC",
+                "category_name": "Fan Art",
+                "total_tax_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                },
+                "item_type": "ITEM",
+                "variation_name": "Regular",
+                "name": "Adventure Time"
+            }
+        ],
+        "merchant_id": "D773PRWV8M0XZ",
+        "total_tip_money": {
+            "amount": 0,
+            "currency": "USD"
+        },
+        "version": 10,
+        "location_id": "XZZ44KCNWKP6Q",
+        "tenders": [
+            {
+                "uid": "HSarq8UIcKfEIUhEGM1NnB",
+                "transaction_id": "ZXNrAqPqF1aHRdKKwdNBBTgRgdWZY",
+                "id": "RpRMgpNCJcoNiCCAiuhBLQB",
+                "cash_details": {
+                    "change_back_money": {
+                        "amount": 400,
+                        "currency": "USD"
+                    },
+                    "buyer_tendered_money": {
+                        "amount": 10500,
+                        "currency": "USD"
+                    }
+                },
+                "created_at": "2020-03-18T20:06:39Z",
+                "location_id": "XZZ44KCNWKP6Q",
+                "amount_money": {
+                    "amount": 10100,
+                    "currency": "USD"
+                },
+                "type": "CASH"
+            }
+        ],
+        "state": "OPEN",
+        "total_service_charge_money": {
+            "amount": 10000,
+            "currency": "USD"
+        },
+        "id": "ZXNrAqPqF1aHRdKKwdNBBTgRgdWZY",
+        "total_money": {
+            "amount": 10100,
+            "currency": "USD"
+        },
+        "total_discount_money": {
+            "amount": 0,
+            "currency": "USD"
+        },
+        "workflow": "com.squareup.Shipment",
+        "payment_groups": [
+            {
+                "uid": "B0UIx2i2Fx7vmbDPM9xP5C",
+                "state": "COMPLETED",
+                "payment_ids": [
+                    "RpRMgpNCJcoNiCCAiuhBLQB"
+                ]
+            }
+        ],
+        "net_amounts": {
+            "total_money": {
+                "amount": 10100,
+                "currency": "USD"
+            },
+            "service_charge_money": {
+                "amount": 10000,
+                "currency": "USD"
+            },
+            "tip_money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "discount_money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "tax_money": {
+                "amount": 0,
+                "currency": "USD"
+            }
+        },
+        "created_at": "2020-03-18T20:06:40.054Z",
+        "total_tax_money": {
+            "amount": 0,
+            "currency": "USD"
+        },
+        "workflow_version": 1
+    },
+    "cart": {
+        "amounts": {
+            "total_money": {
+                "amount": 10100,
+                "currency_code": "USD"
+            },
+            "surcharge_money": {
+                "amount": 10000,
+                "currency_code": "USD"
+            },
+            "tip_money": {
+                "amount": 0,
+                "currency_code": "USD"
+            },
+            "discount_money": {
+                "amount": 0,
+                "currency_code": "USD"
+            },
+            "tax_money": {
+                "amount": 0,
+                "currency_code": "USD"
+            }
+        },
+        "feature_details": {
+            "buyer_info": {
+                "display_details": {
+                    "last_visit": {
+                        "date_string": "2020-03-18T14:58:57-05:00"
+                    },
+                    "phone_token": "6341134",
+                    "display_name": "Tester Testingson"
+                },
+                "customer_id": "9FEGZD72F93QVBPTKM3NE8AV3R"
+            },
+            "bill_print_state": {
+                "read_only_printed": false
+            }
+        },
+        "line_items": {
+            "surcharge": [
+                {
+                    "amounts": {
+                        "applied_money": {
+                            "amount": 10000,
+                            "currency_code": "USD"
+                        }
+                    },
+                    "backing_details": {
+                        "surcharge": {
+                            "amount": {
+                                "cents": 10000,
+                                "currency_code": "USD"
+                            },
+                            "taxable": false,
+                            "calculation_phase": "SURCHARGE_TOTAL_PHASE",
+                            "id": "9798615E-92C5-43DF-B4AD-E7E7EE63525C",
+                            "auto_gratuity": {
+                                "minimum_seat_count": 0
+                            },
+                            "type": "CUSTOM",
+                            "name": "Shipping"
+                        }
+                    },
+                    "write_only_deleted": false,
+                    "surcharge_line_item_id_pair": {
+                        "client_id": "28A6B394-41E6-4EA3-8BCD-5709736CD800",
+                        "server_id": "60861f49-ad67-457a-ae70-06eee1cc53ee"
+                    }
+                }
+            ],
+            "itemization": [
+                {
+                    "quantity": "1",
+                    "read_only_display_details": {
+                        "item": {
+                            "abbreviation": ".",
+                            "cogs_object_id": "30184b5f-f31c-4fcb-afbf-1b678b0c2224",
+                            "image_url": "https://square-staging.s3.amazonaws.com/files/ec74998ccf382bc33e1e36f5026639e33e36e2c3/original.jpeg",
+                            "name": "Adventure Time",
+                            "description": "",
+                            "color": "9DA2A6"
+                        }
+                    },
+                    "event": [
+                        {
+                            "created_at": {
+                                "date_string": "2020-03-18T15:06:21-05:00"
+                            },
+                            "event_id_pair": {
+                                "client_id": "B56A6B88-1E0C-4C19-9DD8-A1EADFE9A547"
+                            },
+                            "creator_details": {
+                                "employee": {
+                                    "last_name": "Colter",
+                                    "read_only_full_name": "Linda Colter",
+                                    "employee_token": "Bz-_op2vV0dJTUvK-dJm",
+                                    "first_name": "Linda"
+                                }
+                            },
+                            "event_type": "CREATION"
+                        }
+                    ],
+                    "created_at": {
+                        "date_string": "2020-03-18T15:06:20-05:00"
+                    },
+                    "configuration": {
+                        "item_variation_price_money": {
+                            "amount": 100,
+                            "currency_code": "USD"
+                        },
+                        "backing_type": "ITEM_VARIATION",
+                        "category": {
+                            "color": "2952CC",
+                            "id": "O6DHSTR7U77SV43DMGR446MR",
+                            "abbreviation": "🖼",
+                            "name": "Fan Art",
+                            "ordinal": 0,
+                            "catalog_object_reference": {
+                                "version": 1580743418120,
+                                "catalog_object_token": "O6DHSTR7U77SV43DMGR446MR"
+                            }
+                        },
+                        "selected_options": {
+                            "item_variation_details": {
+                                "display_variation_name": false,
+                                "read_only_display_details": {
+                                    "price_money": {
+                                        "amount": 100,
+                                        "currency_code": "USD"
+                                    },
+                                    "name": "Regular",
+                                    "cogs_object_id": "c9212671-6827-47fa-9036-48cc351fffbc",
+                                    "sku": ""
+                                }
+                            }
+                        }
+                    },
+                    "feature_details": {
+                        "pricing_engine_state": {
+                        }
+                    },
+                    "itemization_id_pair": {
+                        "client_id": "DA863BAA-3A24-4251-A890-5E2FFEEAC2BF",
+                        "server_id": "w1pFCflozKo5KG5uwq35S"
+                    },
+                    "quantity_entry_type": "MANUALLY_ENTERED",
+                    "amounts": {
+                        "total_money": {
+                            "amount": 100,
+                            "currency_code": "USD"
+                        },
+                        "item_variation_price_money": {
+                            "amount": 100,
+                            "currency_code": "USD"
+                        },
+                        "item_variation_price_times_quantity_money": {
+                            "amount": 100,
+                            "currency_code": "USD"
+                        },
+                        "discount_money": {
+                            "amount": 0,
+                            "currency_code": "USD"
+                        },
+                        "tax_money": {
+                            "amount": 0,
+                            "currency_code": "USD"
+                        }
+                    }
+                }
+            ]
+        },
+        "amount_details": {
+            "net": {
+                "total_money": {
+                    "amount": 10100,
+                    "currency_code": "USD"
+                },
+                "surcharge_money": {
+                    "amount": 10000,
+                    "currency_code": "USD"
+                },
+                "tip_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "discount_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "tax_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                }
+            },
+            "return": {
+                "total_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "surcharge_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "tip_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "discount_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "tax_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                }
+            },
+            "sale": {
+                "total_money": {
+                    "amount": 10100,
+                    "currency_code": "USD"
+                },
+                "surcharge_money": {
+                    "amount": 10000,
+                    "currency_code": "USD"
+                },
+                "tip_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "discount_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "tax_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                }
+            }
+        }
+    },
+    "merchant": {
+        "read_only_photo_url": "https://square-web-staging-f.squarecdn.com/files/5230f6cdfaf2ce6767c33db0dc71a6f36723c746/original.png",
+        "read_only_business_name": "Magic Man's Magic Market",
+        "merchant_token": "XZZ44KCNWKP6Q"
+    },
+    "square_product": "REGISTER",
+    "dates": {
+        "created_at": {
+            "date_string": "2020-03-18T20:06:39Z"
+        },
+        "completed_at": {
+            "date_string": "2020-03-18T20:06:39Z"
+        }
+    },
+    "bill_id_pair": {
+        "client_id": "EC0F9B98-0480-4DBB-94A0-C0961997F85B",
+        "server_id": "ZXNrAqPqF1aHRdKKwdNBBTgRgdWZY"
+    },
+    "read_only_loyalty_details": {
+        "account_contact": {
+        },
+        "reason": "UNKNOWN",
+        "new_enrollment": false,
+        "stars_earned": 0,
+        "rewards_earned": 0
+    }
+}
+

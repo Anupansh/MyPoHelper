@@ -1,0 +1,103 @@
+PODS:
+  - Alamofire (5.4.1)
+  - CalendarKit (1.0.12)
+  - DateToolsSwift (5.0.0)
+  - DropDown (2.3.13)
+  - DTPhotoViewerController (3.1.0)
+  - ExpandableCell (1.3.1)
+  - FlexColorPicker (1.4.2)
+  - GoogleMaps/Base (4.1.0)
+  - GooglePlaces (4.1.0):
+    - GoogleMaps/Base (= 4.1.0)
+  - GRDB.swift (5.7.4):
+    - GRDB.swift/standard (= 5.7.4)
+  - GRDB.swift/standard (5.7.4)
+  - IQKeyboardManager (6.5.6)
+  - M13Checkbox (3.4.0)
+  - MapboxCommon (20.0.0)
+  - MapboxCoreMaps (10.0.0):
+    - MapboxCommon (~> 20.0)
+  - MapboxMaps (10.0.1):
+    - MapboxCommon (= 20.0.0)
+    - MapboxCoreMaps (= 10.0.0)
+    - MapboxMobileEvents (= 1.0.6)
+    - Turf (~> 2.0)
+  - MapboxMobileEvents (1.0.6)
+  - MarqueeLabel (4.3.0)
+  - SideMenu (6.5.0)
+  - SpreadsheetView (0.9.1)
+  - Starscream (4.0.4)
+  - SwiftDataTables (0.8.2)
+  - Turf (2.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - CalendarKit
+  - DateToolsSwift
+  - DropDown
+  - DTPhotoViewerController
+  - ExpandableCell
+  - FlexColorPicker
+  - GooglePlaces
+  - GRDB.swift
+  - IQKeyboardManager
+  - M13Checkbox
+  - MapboxMaps (= 10.0.1)
+  - MarqueeLabel
+  - SideMenu
+  - SpreadsheetView
+  - Starscream (~> 4.0.0)
+  - SwiftDataTables
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CalendarKit
+    - DateToolsSwift
+    - DropDown
+    - DTPhotoViewerController
+    - ExpandableCell
+    - FlexColorPicker
+    - GoogleMaps
+    - GooglePlaces
+    - GRDB.swift
+    - IQKeyboardManager
+    - M13Checkbox
+    - MapboxCommon
+    - MapboxCoreMaps
+    - MapboxMaps
+    - MapboxMobileEvents
+    - MarqueeLabel
+    - SideMenu
+    - SpreadsheetView
+    - Starscream
+    - SwiftDataTables
+    - Turf
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  CalendarKit: 3da636e7e5ebfd6f75791b4d727e9531b50a896c
+  DateToolsSwift: 4207ada6ad615d8dc076323d27037c94916dbfa6
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  DTPhotoViewerController: 2b5e64792ee89fcab1f154538577d1856e04e15b
+  ExpandableCell: c57c3057395df3066ec33d239b59623825f1f716
+  FlexColorPicker: d7ed5cfd8ceb936f2930e4e30629f9448967a5f8
+  GoogleMaps: 008e2c80e38605b56b560e8deb73d4194ff30bef
+  GooglePlaces: a058b776259c13e1323c9ff135549cb1b13ad8e7
+  GRDB.swift: 2064e726141f130d0b8bd819b29086f2b1157597
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  M13Checkbox: 6f59404540ac98ba83a3d1afac335895a40c6a5d
+  MapboxCommon: 18ae12e6b4286f59f685862aaa5766fd95828ce2
+  MapboxCoreMaps: c2847aa114c71873def0d9662b0b7aba9e75d3af
+  MapboxMaps: a74f59bcb19690ecdc345488c06f5548981b9089
+  MapboxMobileEvents: 14d7ac3ee95b4142c4fec2205dfd48ff453e8871
+  MarqueeLabel: 02f5ac8fd6877c94564556cb93fa86c70c08baeb
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+  SpreadsheetView: 688dbd19f2b355df0eb09e486266fd913a013449
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  SwiftDataTables: 1c6bd4d477b44b07df86ca22c5ae67c85fe894ff
+  Turf: 79ad33d164291444775d83e5db4be199dd1f606f
+
+PODFILE CHECKSUM: eb2534a46f5f947a4310981bc6283d445f7ce694
+
+COCOAPODS: 1.11.2

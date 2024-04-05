@@ -1,0 +1,336 @@
+{
+    "tender": [
+        {
+            "amounts": {
+                "total_money": {
+                    "amount": 648,
+                    "currency_code": "USD"
+                },
+                "auto_gratuity_percentage": "0"
+            },
+            "extra_tender_details": {
+            },
+            "type": "PUSH",
+            "tendered_at": {
+                "date_string": "2020-07-27T10:30:40-07:00"
+            },
+            "client_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:6CE8CD2D-EAEF-442B-89D4-AE13D6FD3581",
+                "app_version": "5.36"
+            },
+            "read_only_receipt_number": "J2Zv",
+            "read_only_last_refundable_at": {
+                "date_string": "2040-07-23T20:30:40-07:00"
+            },
+            "read_only_state": "SETTLED",
+            "tender_id_pair": {
+                "client_id": "TENDER_ID-CLIENT_ID-PAIR_CASH_APP",
+                "server_id": "TENDER_ID-SERVER_ID-PAIR_CASH_APP"
+            },
+            "method": {
+                "push_tender": {
+                    "cash_app_tender": {
+                        "read_only_cashtag": "$jack",
+                        "read_only_buyer_full_name": "Jack Dorsey"
+                    },
+                    "entry_method": "QR_CODE"
+                }
+            }
+        }
+    ],
+    "dates": {
+        "created_at": {
+            "date_string": "2020-03-26T03:30:40Z"
+        },
+        "completed_at": {
+            "date_string": "2020-03-26T03:30:43Z"
+        }
+    },
+    "bill_id_pair": {
+        "client_id": "BILL_ID_PAIR-CLIENT_ID-CASH_APP",
+        "server_id": "BILL_ID_PAIR-SERVER_ID-CASH_APP"
+    },
+    "cart": {
+        "amounts": {
+            "total_money": {
+                "amount": 648,
+                "currency_code": "USD"
+            },
+            "surcharge_money": {
+                "amount": 0,
+                "currency_code": "USD"
+            },
+            "tip_money": {
+                "amount": 0,
+                "currency_code": "USD"
+            },
+            "discount_money": {
+                "amount": 0,
+                "currency_code": "USD"
+            },
+            "tax_money": {
+                "amount": 48,
+                "currency_code": "USD"
+            }
+        },
+        "feature_details": {
+            "kitchen_printing": {
+                "name": "Captain Jack Sparrow"
+            },
+            "bill_print_state": {
+                "read_only_printed": false
+            }
+        },
+        "line_items": {
+            "fee": [
+                {
+                    "amounts": {
+                        "applied_money": {
+                            "amount": 48,
+                            "currency_code": "USD"
+                        },
+                        "applied_to_money": {
+                            "amount": 600,
+                            "currency_code": "USD"
+                        },
+                        "after_application_total_money": {
+                            "amount": 648,
+                            "currency_code": "USD"
+                        }
+                    },
+                    "read_only_display_details": {
+                        "calculation_phase": "FEE_SUBTOTAL_PHASE",
+                        "inclusion_type": "ADDITIVE",
+                        "tax_type_name": "Sales Tax",
+                        "cogs_object_id": "94D3428A-1220-4CDF-AAE3-854D40280EA4",
+                        "tax_label_order": 0,
+                        "percentage": "8",
+                        "name": "Sales Tax",
+                        "tax_type_id": "us_sales_tax"
+                    },
+                    "fee_line_item_id_pair": {
+                        "client_id": "FA7861E2-BE96-47E7-9301-7ACA9EAC943B",
+                        "server_id": "0212fe26-c180-4d87-a89f-7d7b24f62687"
+                    },
+                    "created_at": {
+                        "date_string": "2020-03-25T20:30:36-07:00"
+                    }
+                }
+            ],
+            "default_dining_option": {
+                "backing_details": {
+                    "dining_option": {
+                        "id": "UWIWK2PGKFF3BBEC6P626TNX",
+                        "name": "For here",
+                        "ordinal": 0,
+                        "catalog_object_reference": {
+                            "version": 1576563430219,
+                            "catalog_object_token": "UWIWK2PGKFF3BBEC6P626TNX"
+                        }
+                    }
+                },
+                "application_scope": "CART_LEVEL",
+                "dining_option_line_item_id_pair": {
+                    "client_id": "62BA8AD2-75E9-452C-87CE-F825758A0DA4",
+                    "server_id": "9a6fb8df-813a-4a57-950a-1562b2a572fa"
+                }
+            },
+            "itemization": [
+                {
+                    "quantity": "6",
+                    "read_only_display_details": {
+                        "item": {
+                            "abbreviation": "Je",
+                            "image_url": "https://square-staging.s3.amazonaws.com/files/a7fd5e0880f06b3654999532f38826c72938ad05/original.jpeg",
+                            "name": "Jelly",
+                            "cogs_object_id": "0BC8BFBB-72A2-4DC7-930B-E27F1DAAAEA6"
+                        }
+                    },
+                    "event": [
+                        {
+                            "event_id_pair": {
+                                "client_id": "16276631-3BED-49C8-9993-29D7977DB439"
+                            },
+                            "event_type": "CREATION",
+                            "created_at": {
+                                "date_string": "2020-03-25T20:30:37-07:00"
+                            }
+                        }
+                    ],
+                    "created_at": {
+                        "date_string": "2020-03-25T20:30:36-07:00"
+                    },
+                    "configuration": {
+                        "selected_options": {
+                            "fee": [
+                                {
+                                    "amounts": {
+                                        "applied_money": {
+                                            "amount": 48,
+                                            "currency_code": "USD"
+                                        }
+                                    },
+                                    "read_only_display_details": {
+                                        "calculation_phase": "FEE_SUBTOTAL_PHASE",
+                                        "inclusion_type": "ADDITIVE",
+                                        "tax_type_name": "Sales Tax",
+                                        "cogs_object_id": "94D3428A-1220-4CDF-AAE3-854D40280EA4",
+                                        "tax_label_order": 0,
+                                        "percentage": "8",
+                                        "name": "Sales Tax",
+                                        "tax_type_id": "us_sales_tax"
+                                    },
+                                    "fee_line_item_id_pair": {
+                                        "client_id": "09626D7D-E221-4F57-B1F3-9E196E9DFE42",
+                                        "server_id": "b63f0d0d-f5d0-4dd0-bfcc-d00bea1e2f4c"
+                                    },
+                                    "created_at": {
+                                        "date_string": "2020-03-25T20:30:36-07:00"
+                                    }
+                                }
+                            ],
+                            "item_variation_details": {
+                                "display_variation_name": false,
+                                "read_only_display_details": {
+                                    "price_money": {
+                                        "amount": 100,
+                                        "currency_code": "USD"
+                                    },
+                                    "name": "Regular",
+                                    "cogs_object_id": "D8DA4602-36FF-4811-9ABD-843D8980BD97",
+                                    "sku": ""
+                                }
+                            },
+                            "dining_option": {
+                                "backing_details": {
+                                    "dining_option": {
+                                        "id": "UWIWK2PGKFF3BBEC6P626TNX",
+                                        "name": "For here",
+                                        "ordinal": 0,
+                                        "catalog_object_reference": {
+                                            "version": 1576563430219,
+                                            "catalog_object_token": "UWIWK2PGKFF3BBEC6P626TNX"
+                                        }
+                                    }
+                                },
+                                "application_scope": "CART_LEVEL",
+                                "dining_option_line_item_id_pair": {
+                                    "client_id": "62BA8AD2-75E9-452C-87CE-F825758A0DA4",
+                                    "server_id": "767d1140-d530-4bf3-9574-4e3f51c96e5c"
+                                }
+                            }
+                        },
+                        "backing_type": "ITEM_VARIATION",
+                        "item_variation_price_money": {
+                            "amount": 100,
+                            "currency_code": "USD"
+                        }
+                    },
+                    "feature_details": {
+                        "pricing_engine_state": {}
+                    },
+                    "itemization_id_pair": {
+                        "client_id": "B1A81A69-FFB7-4DA1-A986-07958FB95820",
+                        "server_id": "ewndh0iTOWAHXAxkqjl5S"
+                    },
+                    "quantity_entry_type": "MANUALLY_ENTERED",
+                    "amounts": {
+                        "total_money": {
+                            "amount": 648,
+                            "currency_code": "USD"
+                        },
+                        "item_variation_price_money": {
+                            "amount": 100,
+                            "currency_code": "USD"
+                        },
+                        "item_variation_price_times_quantity_money": {
+                            "amount": 600,
+                            "currency_code": "USD"
+                        },
+                        "discount_money": {
+                            "amount": 0,
+                            "currency_code": "USD"
+                        },
+                        "tax_money": {
+                            "amount": 48,
+                            "currency_code": "USD"
+                        }
+                    }
+                }
+            ]
+        },
+        "amount_details": {
+            "net": {
+                "total_money": {
+                    "amount": 648,
+                    "currency_code": "USD"
+                },
+                "surcharge_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "tip_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "discount_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "tax_money": {
+                    "amount": 48,
+                    "currency_code": "USD"
+                }
+            },
+            "return": {
+                "total_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "surcharge_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "tip_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "discount_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "tax_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                }
+            },
+            "sale": {
+                "total_money": {
+                    "amount": 648,
+                    "currency_code": "USD"
+                },
+                "surcharge_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "tip_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "discount_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "tax_money": {
+                    "amount": 48,
+                    "currency_code": "USD"
+                }
+            }
+        }
+    },
+    "merchant": {
+        "read_only_business_name": "Brews Brews Brews",
+        "merchant_token": "VX7K76X9AHYEM"
+    },
+    "square_product": "REGISTER"
+}

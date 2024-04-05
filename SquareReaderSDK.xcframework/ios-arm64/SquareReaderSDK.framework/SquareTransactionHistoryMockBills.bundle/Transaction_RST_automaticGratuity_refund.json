@@ -1,0 +1,277 @@
+{
+    "refund": [
+        {
+            "reason": "Returned Goods",
+            "write_only_creator_details": {
+                "employee": {
+                    "last_name": "Burke",
+                    "read_only_full_name": "Burke, Sandra",
+                    "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                    "first_name": "Sandra"
+                }
+            },
+            "write_only_amount": {
+                "amount": 167,
+                "currency_code": "USD"
+            },
+            "reason_option": "RETURNED_GOODS",
+            "write_only_linked_bill_server_token": "EUgNxmzM7R7E2yR5KnUoA2eeV",
+            "read_only_linked_tender": {
+                "peripheral_metadata": {
+                    "app_version": "5350012",
+                    "source_device_installation_id": "74C52011-49F4-4F05-BB04-27B29C6ACB04",
+                    "app_release": "5.35d12",
+                    "connected_peripherals": [
+                        {
+                            "manufacturer_name": "Square",
+                            "connection_type": "AUDIO",
+                            "model_name": "Unknown Model",
+                            "device_type": "Card Reader"
+                        },
+                        {
+                            "device_type": "Printer",
+                            "connection_type": "NETWORK",
+                            "manufacturer_name": "Star",
+                            "model_name": "TSP143III",
+                            "unique_identifier": "00:11:62:12:53:7F"
+                        }
+                    ],
+                    "transaction_local_id": "0AF68A1E-9A12-4527-8F55-EF33C0303ACC"
+                },
+                "creator_details": {
+                    "employee": {
+                        "last_name": "Burke",
+                        "read_only_full_name": "Burke, Sandra",
+                        "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                        "first_name": "Sandra"
+                    },
+                    "device_credential": {
+                        "token": "HY61GKPR99Y0E",
+                        "name": "March 18th"
+                    }
+                },
+                "amounts": {
+                    "auto_gratuity_money": {
+                        "amount": 167,
+                        "currency_code": "USD"
+                    },
+                    "total_money": {
+                        "amount": 6836,
+                        "currency_code": "USD"
+                    },
+                    "surcharge_money": {
+                        "amount": 167,
+                        "currency_code": "USD"
+                    },
+                    "auto_gratuity_percentage": "10"
+                },
+                "type": "CASH",
+                "tendered_at": {
+                    "date_string": "2020-03-18T16:14:16-05:00"
+                },
+                "extra_tender_details": {
+                },
+                "client_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:AB9990DB-B9E1-4FB8-82B0-41523D19DA03",
+                    "app_version": "5.35"
+                },
+                "read_only_state": "SETTLED",
+                "read_only_receipt_number": "ckYM",
+                "read_only_last_refundable_at": {
+                    "date_string": "2020-07-16T16:14:16-05:00"
+                },
+                "tender_id_pair": {
+                    "client_id": "3E833BE2-7FB2-410E-A580-4E9B38E0D8BA",
+                    "server_id": "ckYMPGQkZXb126cKz6qhLQB"
+                },
+                "method": {
+                    "cash_tender": {
+                        "amounts": {
+                            "change_back_money": {
+                                "amount": 1164,
+                                "currency_code": "USD"
+                            },
+                            "buyer_tendered_money": {
+                                "amount": 8000,
+                                "currency_code": "USD"
+                            }
+                        }
+                    }
+                }
+            },
+            "read_only_refunded_at": {
+                "date_string": "2020-03-18T21:15:52Z"
+            },
+            "write_only_linked_tender_server_token": "ckYMPGQkZXb126cKz6qhLQB",
+            "refund_id_pair": {
+                "client_id": "010DFB0E-BA58-45E3-B2E3-695E8C5B9572",
+                "server_id": "wtdfpp44yWvaBoLYc7z5S"
+            },
+            "state": "SUCCESS",
+            "write_only_requested_at": {
+                "date_string": "2020-03-18T21:15:50Z"
+            }
+        }
+    ],
+    "square_product_attributes": {
+        "register": {
+        }
+    },
+    "cart": {
+        "amounts": {
+            "total_money": {
+                "amount": 0,
+                "currency_code": "USD"
+            },
+            "surcharge_money": {
+                "amount": 0,
+                "currency_code": "USD"
+            },
+            "tip_money": {
+                "amount": 0,
+                "currency_code": "USD"
+            },
+            "discount_money": {
+                "amount": 0,
+                "currency_code": "USD"
+            },
+            "tax_money": {
+                "amount": 0,
+                "currency_code": "USD"
+            }
+        },
+        "return_line_items": [
+            {
+                "return_surcharge_line_item": [
+                    {
+                        "surcharge_line_item": {
+                            "amounts": {
+                                "applied_money": {
+                                    "amount": 167,
+                                    "currency_code": "USD"
+                                }
+                            },
+                            "backing_details": {
+                                "surcharge": {
+                                    "id": "M35L33Y3FOPSOVHZ3C5TWOL4",
+                                    "percentage": "10",
+                                    "taxable": false,
+                                    "type": "AUTO_GRATUITY",
+                                    "calculation_phase": "SURCHARGE_TOTAL_PHASE",
+                                    "auto_gratuity": {
+                                        "auto_enable_type": "MINIMUM_SEAT_COUNT",
+                                        "minimum_seat_count": 3
+                                    }
+                                }
+                            },
+                            "write_only_deleted": false,
+                            "surcharge_line_item_id_pair": {
+                                "client_id": "57362745-C7B4-4733-A15B-E926D7D2BB50",
+                                "server_id": "GZSWsdzvaMCwWWelKOkE"
+                            }
+                        },
+                        "source_surcharge_line_item_id_pair": {
+                            "client_id": "12E695B6-19C2-459E-B4CB-000407B34DE9",
+                            "server_id": "086f78af-1e25-4387-a532-086dff845004"
+                        }
+                    }
+                ],
+                "source_bill_server_id": "EUgNxmzM7R7E2yR5KnUoA2eeV"
+            }
+        ],
+        "created_by_unit_token": "H950Y11QM2TF1",
+        "amount_details": {
+            "net": {
+                "total_money": {
+                    "amount": -167,
+                    "currency_code": "USD"
+                },
+                "surcharge_money": {
+                    "amount": -167,
+                    "currency_code": "USD"
+                },
+                "tip_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "discount_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "tax_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                }
+            },
+            "return": {
+                "total_money": {
+                    "amount": 167,
+                    "currency_code": "USD"
+                },
+                "surcharge_money": {
+                    "amount": 167,
+                    "currency_code": "USD"
+                },
+                "tip_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "discount_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "tax_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                }
+            },
+            "sale": {
+                "total_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "surcharge_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "tip_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "discount_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "tax_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                }
+            }
+        }
+    },
+    "merchant": {
+        "read_only_photo_url": "https://square-web-staging-f.squarecdn.com/files/ee962b084edba69cac8f73fc1b98b9b80fd8aee6/original.jpeg",
+        "read_only_business_name": "Bistro Haus",
+        "merchant_token": "H950Y11QM2TF1"
+    },
+    "square_product": "REGISTER",
+    "dates": {
+        "created_at": {
+            "date_string": "2020-03-18T21:15:50Z"
+        },
+        "completed_at": {
+            "date_string": "2020-03-18T21:15:50Z"
+        }
+    },
+    "bill_id_pair": {
+        "client_id": "bill:133102E5-91CE-4F37-8CE5-2BA70BC78644",
+        "server_id": "iZFQw2CVv0Zqm5xdyqvKRoreV"
+    },
+    "read_only_loyalty_details": {
+        "account_contact": {
+        },
+        "new_enrollment": false,
+        "stars_earned": 0,
+        "rewards_earned": 0
+    }
+}

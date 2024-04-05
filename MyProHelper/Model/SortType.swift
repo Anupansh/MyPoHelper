@@ -1,0 +1,14 @@
+//
+//  File.swift
+//  MyProHelper
+//
+//  Created by Ahmed Samir on 10/20/20.
+//  Copyright © 2020 Benchmark Computing. All rights reserved.
+//
+
+import Foundation
+
+enum SortType {
+    case ASCENDING
+    case DESCENDING
+}

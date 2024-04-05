@@ -1,0 +1,850 @@
+{
+    "tender": [
+        {
+            "peripheral_metadata": {
+                "app_version": "53606865",
+                "source_device_installation_id": "b2e7ba38-aa32-4110-a60a-89290911a882",
+                "app_release": "5.36dev"
+            },
+            "creator_details": {
+                "employee": {
+                    "last_name": "Burke",
+                    "read_only_full_name": "Burke, Sandra",
+                    "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                    "first_name": "Sandra"
+                },
+                "device_credential": {
+                    "token": "F9NN25Z8Q901B",
+                    "name": "X2"
+                }
+            },
+            "read_only_refund_card_presence_requirement": "REFUND_CARD_PRESENCE_NOT_REQUIRED",
+            "amounts": {
+                "total_money": {
+                    "amount": 1407,
+                    "currency_code": "USD"
+                },
+                "surcharge_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                }
+            },
+            "type": "CARD",
+            "tendered_at": {
+                "date_string": "2020-03-25T09:59:42-05:00"
+            },
+            "read_only_loyalty_details": {
+                "account_contact": {
+                },
+                "reason": "UNKNOWN",
+                "new_enrollment": false,
+                "stars_earned": 0,
+                "rewards_earned": 0
+            },
+            "extra_tender_details": {
+                "receipt_display_details": {
+                    "tipping_preferences": {
+                        "allow_manual_tip_entry": true,
+                        "client_calculated_tip_option": [
+                            {
+                                "is_remaining_balance": false,
+                                "percentage": 15,
+                                "tip_money": {
+                                    "amount": 199,
+                                    "currency_code": "USD"
+                                }
+                            },
+                            {
+                                "is_remaining_balance": false,
+                                "percentage": 20,
+                                "tip_money": {
+                                    "amount": 265,
+                                    "currency_code": "USD"
+                                }
+                            },
+                            {
+                                "is_remaining_balance": false,
+                                "percentage": 25,
+                                "tip_money": {
+                                    "amount": 332,
+                                    "currency_code": "USD"
+                                }
+                            }
+                        ],
+                        "manual_tip_entry_largest_max_money": {
+                            "amount": 300000,
+                            "currency_code": "USD"
+                        },
+                        "smart_tipping_over_threshold_options": [
+                            {
+                                "percentage": 15,
+                                "is_remaining_balance": false
+                            },
+                            {
+                                "percentage": 20,
+                                "is_remaining_balance": false
+                            },
+                            {
+                                "percentage": 25,
+                                "is_remaining_balance": false
+                            }
+                        ],
+                        "smart_tipping_threshold_money": {
+                            "amount": 1000,
+                            "currency_code": "USD"
+                        },
+                        "smart_tipping_under_threshold_options": [
+                            {
+                                "tip_money": {
+                                    "amount": 100,
+                                    "currency_code": "USD"
+                                }
+                            },
+                            {
+                                "tip_money": {
+                                    "amount": 200,
+                                    "currency_code": "USD"
+                                }
+                            },
+                            {
+                                "tip_money": {
+                                    "amount": 300,
+                                    "currency_code": "USD"
+                                }
+                            }
+                        ],
+                        "manual_tip_entry_smallest_max_money": {
+                            "amount": 20000,
+                            "currency_code": "USD"
+                        },
+                        "manual_tip_entry_max_percentage": 200
+                    },
+                    "buyer_selected_locale": "en-US",
+                    "display_quick_tip_options": true,
+                    "display_tip_options_on_paper_receipt": false,
+                    "display_signature_line_on_paper_receipt": false,
+                    "display_custom_amount": true
+                }
+            },
+            "read_only_state": "AWAITING_MERCHANT_TIP",
+            "client_details": {
+                "device_id": "831CS121A1000059",
+                "app_version": "5.36dev"
+            },
+            "read_only_receipt_number": "pOP1",
+            "read_only_last_refundable_at": {
+                "date_string": "2020-07-23T09:59:42-05:00"
+            },
+            "tender_id_pair": {
+                "client_id": "a41e4967-05fd-4357-acc7-811bd34210bf",
+                "server_id": "pOP1ED6BWjbGptZuERcOj1HOuaB"
+            },
+            "method": {
+                "card_tender": {
+                    "emv": {
+                        "is_emv_capable_reader_present": true
+                    },
+                    "card": {
+                        "entry_method": "SWIPED",
+                        "brand": "VISA",
+                        "pan_suffix": "1956",
+                        "write_only_can_swipe_chip_card": false
+                    },
+                    "read_only_authorization": {
+                        "authorized_money": {
+                            "amount": 1407,
+                            "currency_code": "USD"
+                        },
+                        "authorization_code": "goLv4m"
+                    }
+                }
+            }
+        }
+    ],
+    "dates": {
+        "created_at": {
+            "date_string": "2020-03-25T14:59:42Z"
+        },
+        "completed_at": {
+            "date_string": "2020-03-25T14:59:49Z"
+        }
+    },
+    "bill_id_pair": {
+        "server_id": "SRbxnqjekOzkeRUc6rTgrLfeV"
+    },
+    "cart": {
+        "amounts": {
+            "total_money": {
+                "amount": 1407,
+                "currency_code": "USD"
+            },
+            "surcharge_money": {
+                "amount": 0,
+                "currency_code": "USD"
+            },
+            "tip_money": {
+                "amount": 0,
+                "currency_code": "USD"
+            },
+            "discount_money": {
+                "amount": -148,
+                "currency_code": "USD"
+            },
+            "tax_money": {
+                "amount": 80,
+                "currency_code": "USD"
+            }
+        },
+        "feature_details": {
+            "bill_print_state": {
+                "read_only_printed": false
+            }
+        },
+        "line_items": {
+            "discount": [
+                {
+                    "created_at": {
+                        "date_string": "2020-03-25T09:56:03-05:00"
+                    },
+                    "amounts": {
+                        "applied_money": {
+                            "amount": -148,
+                            "currency_code": "USD"
+                        }
+                    },
+                    "read_only_display_details": {
+                        "percentage": "10",
+                        "name": "10%",
+                        "cogs_object_id": "MIXNJGM7DNJDJIB6XLOTUXCD",
+                        "application_method": "MANUALLY_APPLIED"
+                    },
+                    "application_scope": "CART_LEVEL",
+                    "discount_quantity": "1",
+                    "discount_line_item_id_pair": {
+                        "client_id": "9c9e456d-db09-4d0e-8007-71c88a91bb76",
+                        "server_id": "0bc49545-d5a0-481f-82a6-915379213de5"
+                    }
+                }
+            ],
+            "itemization": [
+                {
+                    "quantity": "1",
+                    "read_only_display_details": {
+                        "item": {
+                        }
+                    },
+                    "event": [
+                        {
+                            "created_at": {
+                                "date_string": "2020-03-25T09:56:03-05:00"
+                            },
+                            "event_id_pair": {
+                                "client_id": "0e0456e1-5718-4ca0-8a7b-b9b892af1e24"
+                            },
+                            "reason": "MIXNJGM7DNJDJIB6XLOTUXCD",
+                            "creator_details": {
+                                "employee": {
+                                    "last_name": "Burke",
+                                    "employee_token": "NrBOwiuNrPJnMP7Y4OdG",
+                                    "first_name": "Sandra"
+                                }
+                            },
+                            "event_type": "DISCOUNT"
+                        }
+                    ],
+                    "created_at": {
+                        "date_string": "2020-03-25T09:55:57-05:00"
+                    },
+                    "configuration": {
+                        "selected_options": {
+                            "discount": [
+                                {
+                                    "created_at": {
+                                        "date_string": "2020-03-25T09:56:03-05:00"
+                                    },
+                                    "amounts": {
+                                        "applied_money": {
+                                            "amount": -50,
+                                            "currency_code": "USD"
+                                        }
+                                    },
+                                    "read_only_display_details": {
+                                        "percentage": "10",
+                                        "name": "10%",
+                                        "cogs_object_id": "MIXNJGM7DNJDJIB6XLOTUXCD",
+                                        "application_method": "MANUALLY_APPLIED"
+                                    },
+                                    "application_scope": "CART_LEVEL",
+                                    "discount_quantity": "1",
+                                    "discount_line_item_id_pair": {
+                                        "client_id": "9c9e456d-db09-4d0e-8007-71c88a91bb76",
+                                        "server_id": "8660d78d-2061-472a-a66c-72d76fac277c"
+                                    }
+                                }
+                            ],
+                            "item_variation_details": {
+                                "read_only_display_details": {
+                                    "price_money": {
+                                        "amount": 500,
+                                        "currency_code": "USD"
+                                    }
+                                }
+                            },
+                            "dining_option": {
+                                "backing_details": {
+                                    "dining_option": {
+                                        "id": "KWECQKMZSKEN4RTN6U45WEN2",
+                                        "name": "For Here",
+                                        "ordinal": 0
+                                    }
+                                },
+                                "application_scope": "CART_LEVEL",
+                                "dining_option_line_item_id_pair": {
+                                    "client_id": "0a40ee8f-2c81-4d2b-a462-9f6455131746",
+                                    "server_id": "49836937-ce5e-4316-80b9-4b9c2f675d61"
+                                }
+                            },
+                            "fee": [
+                                {
+                                    "amounts": {
+                                        "applied_money": {
+                                            "amount": 27,
+                                            "currency_code": "USD"
+                                        }
+                                    },
+                                    "read_only_display_details": {
+                                        "calculation_phase": "FEE_SUBTOTAL_PHASE",
+                                        "inclusion_type": "ADDITIVE",
+                                        "tax_type_name": "Sales Tax",
+                                        "cogs_object_id": "BCZC4ZUF4SB7F6MWGOS3DXXI",
+                                        "tax_label_order": 0,
+                                        "percentage": "6",
+                                        "name": "Sales Tax",
+                                        "tax_type_id": "us_sales_tax"
+                                    },
+                                    "fee_line_item_id_pair": {
+                                        "client_id": "8baf501a-8779-4e9f-84fb-dc98e2547da7",
+                                        "server_id": "2d52467e-7f99-4b43-acf0-43b32fa35df5"
+                                    },
+                                    "created_at": {
+                                        "date_string": "2020-03-25T09:55:57-05:00"
+                                    }
+                                }
+                            ]
+                        },
+                        "backing_type": "CUSTOM_AMOUNT",
+                        "item_variation_price_money": {
+                            "amount": 500,
+                            "currency_code": "USD"
+                        }
+                    },
+                    "quantity_entry_type": "MANUALLY_ENTERED",
+                    "itemization_id_pair": {
+                        "client_id": "963a805b-708b-48b8-b788-9aa0939f0a42",
+                        "server_id": "QZLt2iqdYOsRy20uHeA6S"
+                    },
+                    "amounts": {
+                        "total_money": {
+                            "amount": 477,
+                            "currency_code": "USD"
+                        },
+                        "item_variation_price_money": {
+                            "amount": 500,
+                            "currency_code": "USD"
+                        },
+                        "item_variation_price_times_quantity_money": {
+                            "amount": 500,
+                            "currency_code": "USD"
+                        },
+                        "discount_money": {
+                            "amount": -50,
+                            "currency_code": "USD"
+                        },
+                        "tax_money": {
+                            "amount": 27,
+                            "currency_code": "USD"
+                        }
+                    }
+                },
+                {
+                    "quantity": "1",
+                    "read_only_display_details": {
+                        "item": {
+                            "abbreviation": "Bl",
+                            "name": "Black Tea",
+                            "cogs_object_id": "EUZKUJ6KNQ4VUISNFH5C5SIE",
+                            "color": "b21212"
+                        }
+                    },
+                    "event": [
+                        {
+                            "event_id_pair": {
+                                "client_id": "24eecae0-bb58-43e9-8215-e6af5917680a"
+                            },
+                            "event_type": "CREATION",
+                            "created_at": {
+                                "date_string": "2020-03-25T09:59:30-05:00"
+                            }
+                        }
+                    ],
+                    "created_at": {
+                        "date_string": "2020-03-25T09:59:30-05:00"
+                    },
+                    "configuration": {
+                        "selected_options": {
+                            "discount": [
+                                {
+                                    "created_at": {
+                                        "date_string": "2020-03-25T09:56:03-05:00"
+                                    },
+                                    "amounts": {
+                                        "applied_money": {
+                                            "amount": -53,
+                                            "currency_code": "USD"
+                                        }
+                                    },
+                                    "read_only_display_details": {
+                                        "percentage": "10",
+                                        "name": "10%",
+                                        "cogs_object_id": "MIXNJGM7DNJDJIB6XLOTUXCD",
+                                        "application_method": "MANUALLY_APPLIED"
+                                    },
+                                    "application_scope": "CART_LEVEL",
+                                    "discount_quantity": "1",
+                                    "discount_line_item_id_pair": {
+                                        "client_id": "9c9e456d-db09-4d0e-8007-71c88a91bb76",
+                                        "server_id": "005629a8-510d-4928-8c63-e92e03dac50c"
+                                    }
+                                }
+                            ],
+                            "item_variation_details": {
+                                "display_variation_name": true,
+                                "read_only_display_details": {
+                                    "name": "Extra Large",
+                                    "price_money": {
+                                        "amount": 325,
+                                        "currency_code": "USD"
+                                    },
+                                    "cogs_object_id": "3POJWJQ2VJVDP35LNDH3QN7F"
+                                }
+                            },
+                            "modifier_option": [
+                                {
+                                    "amounts": {
+                                        "modifier_option_times_quantity_money": {
+                                            "amount": 100,
+                                            "currency_code": "USD"
+                                        },
+                                        "modifier_option_money": {
+                                            "amount": 50,
+                                            "currency_code": "USD"
+                                        }
+                                    },
+                                    "read_only_display_details": {
+                                        "name": "Vanilla",
+                                        "cogs_object_id": "7ZXYMX725DD7OJTVXQQKDISM",
+                                        "sort_order": 0
+                                    },
+                                    "modifier_option_line_item_id_pair": {
+                                        "client_id": "00c514d2-38b6-482e-9b8d-357bf204d200",
+                                        "server_id": "df1d754f-7ea2-499e-a011-caa9dfefc486"
+                                    },
+                                    "hide_from_customer": false,
+                                    "feature_details": {
+                                        "conversational_mode": [
+                                            {
+                                                "type": "ADD"
+                                            },
+                                            {
+                                                "type": "EXTRA"
+                                            }
+                                        ],
+                                        "quantities": {
+                                            "modifier_quantity_times_itemization_quantity": "2",
+                                            "modifier_quantity": "2"
+                                        }
+                                    }
+                                },
+                                {
+                                    "amounts": {
+                                        "modifier_option_times_quantity_money": {
+                                            "amount": 100,
+                                            "currency_code": "USD"
+                                        },
+                                        "modifier_option_money": {
+                                            "amount": 50,
+                                            "currency_code": "USD"
+                                        }
+                                    },
+                                    "read_only_display_details": {
+                                        "name": "Skim Milk",
+                                        "cogs_object_id": "ECXQSRH736MNYTI6WQEXG5HH",
+                                        "sort_order": 1
+                                    },
+                                    "modifier_option_line_item_id_pair": {
+                                        "client_id": "629c3e63-4aed-4b2c-ae2f-c029d60aca86",
+                                        "server_id": "e77d9b9c-76c3-4325-8bee-96e05db26fb3"
+                                    },
+                                    "hide_from_customer": false,
+                                    "feature_details": {
+                                        "conversational_mode": [
+                                            {
+                                                "type": "EXTRA"
+                                            }
+                                        ],
+                                        "quantities": {
+                                            "modifier_quantity_times_itemization_quantity": "2",
+                                            "modifier_quantity": "2"
+                                        }
+                                    }
+                                }
+                            ],
+                            "dining_option": {
+                                "backing_details": {
+                                    "dining_option": {
+                                        "id": "KWECQKMZSKEN4RTN6U45WEN2",
+                                        "name": "For Here",
+                                        "ordinal": 0
+                                    }
+                                },
+                                "application_scope": "CART_LEVEL",
+                                "dining_option_line_item_id_pair": {
+                                    "client_id": "3d90a3ac-ba99-4bb7-84c0-5d320c1d142d",
+                                    "server_id": "af30eee2-d930-41fd-895c-89afb4ec7582"
+                                }
+                            },
+                            "fee": [
+                                {
+                                    "amounts": {
+                                        "applied_money": {
+                                            "amount": 29,
+                                            "currency_code": "USD"
+                                        }
+                                    },
+                                    "read_only_display_details": {
+                                        "calculation_phase": "FEE_SUBTOTAL_PHASE",
+                                        "inclusion_type": "ADDITIVE",
+                                        "tax_type_name": "Sales Tax",
+                                        "cogs_object_id": "BCZC4ZUF4SB7F6MWGOS3DXXI",
+                                        "tax_label_order": 0,
+                                        "percentage": "6",
+                                        "name": "Sales Tax",
+                                        "tax_type_id": "us_sales_tax"
+                                    },
+                                    "fee_line_item_id_pair": {
+                                        "client_id": "92f8fe7e-9082-45a1-9d60-985bfd98efe7",
+                                        "server_id": "05183db4-7cf7-411c-879d-d0edb2150084"
+                                    },
+                                    "created_at": {
+                                        "date_string": "2020-03-25T09:56:26-05:00"
+                                    }
+                                }
+                            ]
+                        },
+                        "backing_type": "ITEM_VARIATION",
+                        "item_variation_price_money": {
+                            "amount": 325,
+                            "currency_code": "USD"
+                        }
+                    },
+                    "quantity_entry_type": "MANUALLY_ENTERED",
+                    "itemization_id_pair": {
+                        "client_id": "4457a8e8-9720-471b-b608-41463b4ac21f",
+                        "server_id": "4bAWD4RB9nl5BUCxhC25S"
+                    },
+                    "amounts": {
+                        "total_money": {
+                            "amount": 501,
+                            "currency_code": "USD"
+                        },
+                        "item_variation_price_money": {
+                            "amount": 325,
+                            "currency_code": "USD"
+                        },
+                        "item_variation_price_times_quantity_money": {
+                            "amount": 325,
+                            "currency_code": "USD"
+                        },
+                        "discount_money": {
+                            "amount": -53,
+                            "currency_code": "USD"
+                        },
+                        "tax_money": {
+                            "amount": 29,
+                            "currency_code": "USD"
+                        }
+                    }
+                },
+                {
+                    "quantity": "1",
+                    "read_only_display_details": {
+                        "item": {
+                            "abbreviation": "Ch",
+                            "name": "Chocolate Cake",
+                            "cogs_object_id": "LXDQG43G4A5GCIQEISGYG5WE",
+                            "color": "13B1BF"
+                        }
+                    },
+                    "event": [
+                        {
+                            "event_id_pair": {
+                                "client_id": "3844655a-0983-4db3-b400-ea23129d6ab4"
+                            },
+                            "event_type": "CREATION",
+                            "created_at": {
+                                "date_string": "2020-03-25T09:59:35-05:00"
+                            }
+                        }
+                    ],
+                    "created_at": {
+                        "date_string": "2020-03-25T09:59:35-05:00"
+                    },
+                    "configuration": {
+                        "selected_options": {
+                            "discount": [
+                                {
+                                    "created_at": {
+                                        "date_string": "2020-03-25T09:56:03-05:00"
+                                    },
+                                    "amounts": {
+                                        "applied_money": {
+                                            "amount": -45,
+                                            "currency_code": "USD"
+                                        }
+                                    },
+                                    "read_only_display_details": {
+                                        "percentage": "10",
+                                        "name": "10%",
+                                        "cogs_object_id": "MIXNJGM7DNJDJIB6XLOTUXCD",
+                                        "application_method": "MANUALLY_APPLIED"
+                                    },
+                                    "application_scope": "CART_LEVEL",
+                                    "discount_quantity": "1",
+                                    "discount_line_item_id_pair": {
+                                        "client_id": "9c9e456d-db09-4d0e-8007-71c88a91bb76",
+                                        "server_id": "5aa02c8a-d013-4dc3-aae8-b06e0ee96b73"
+                                    }
+                                }
+                            ],
+                            "item_variation_details": {
+                                "display_variation_name": false,
+                                "read_only_display_details": {
+                                    "price_money": {
+                                        "amount": 450,
+                                        "currency_code": "USD"
+                                    },
+                                    "name": "Regular",
+                                    "cogs_object_id": "4C5CMHZDCMVMIRGWRXPF75PU",
+                                    "sku": "011110025333"
+                                }
+                            },
+                            "dining_option": {
+                                "backing_details": {
+                                    "dining_option": {
+                                        "id": "KWECQKMZSKEN4RTN6U45WEN2",
+                                        "name": "For Here",
+                                        "ordinal": 0
+                                    }
+                                },
+                                "application_scope": "CART_LEVEL",
+                                "dining_option_line_item_id_pair": {
+                                    "client_id": "b34d6730-75ad-4354-8f25-e1a7680fe982",
+                                    "server_id": "4ec05064-524c-4ae6-93dd-f76182fa1897"
+                                }
+                            },
+                            "fee": [
+                                {
+                                    "amounts": {
+                                        "applied_money": {
+                                            "amount": 24,
+                                            "currency_code": "USD"
+                                        }
+                                    },
+                                    "read_only_display_details": {
+                                        "calculation_phase": "FEE_SUBTOTAL_PHASE",
+                                        "inclusion_type": "ADDITIVE",
+                                        "tax_type_name": "Sales Tax",
+                                        "cogs_object_id": "BCZC4ZUF4SB7F6MWGOS3DXXI",
+                                        "tax_label_order": 0,
+                                        "percentage": "6",
+                                        "name": "Sales Tax",
+                                        "tax_type_id": "us_sales_tax"
+                                    },
+                                    "fee_line_item_id_pair": {
+                                        "client_id": "79fca387-9b4d-48b8-8204-e801693b62ac",
+                                        "server_id": "bca5908b-da86-4895-bd2c-43f41e1e3f58"
+                                    },
+                                    "created_at": {
+                                        "date_string": "2020-03-25T09:59:35-05:00"
+                                    }
+                                }
+                            ]
+                        },
+                        "backing_type": "ITEM_VARIATION",
+                        "item_variation_price_money": {
+                            "amount": 450,
+                            "currency_code": "USD"
+                        }
+                    },
+                    "quantity_entry_type": "MANUALLY_ENTERED",
+                    "itemization_id_pair": {
+                        "client_id": "c62310cf-a72e-4b22-8834-30991a4842e7",
+                        "server_id": "APm7c7rzVvZx3dvzMXu5S"
+                    },
+                    "amounts": {
+                        "total_money": {
+                            "amount": 429,
+                            "currency_code": "USD"
+                        },
+                        "item_variation_price_money": {
+                            "amount": 450,
+                            "currency_code": "USD"
+                        },
+                        "item_variation_price_times_quantity_money": {
+                            "amount": 450,
+                            "currency_code": "USD"
+                        },
+                        "discount_money": {
+                            "amount": -45,
+                            "currency_code": "USD"
+                        },
+                        "tax_money": {
+                            "amount": 24,
+                            "currency_code": "USD"
+                        }
+                    }
+                }
+            ],
+            "default_dining_option": {
+                "backing_details": {
+                    "dining_option": {
+                        "id": "KWECQKMZSKEN4RTN6U45WEN2",
+                        "name": "For Here",
+                        "ordinal": 0
+                    }
+                },
+                "application_scope": "CART_LEVEL",
+                "dining_option_line_item_id_pair": {
+                    "client_id": "00a59c31-8e96-46e8-ab79-6e626a348de2",
+                    "server_id": "99f6d1be-02e3-402e-adbf-b3dadc23a6c2"
+                }
+            },
+            "fee": [
+                {
+                    "amounts": {
+                        "applied_money": {
+                            "amount": 80,
+                            "currency_code": "USD"
+                        },
+                        "applied_to_money": {
+                            "amount": 1327,
+                            "currency_code": "USD"
+                        },
+                        "after_application_total_money": {
+                            "amount": 1407,
+                            "currency_code": "USD"
+                        }
+                    },
+                    "read_only_display_details": {
+                        "calculation_phase": "FEE_SUBTOTAL_PHASE",
+                        "inclusion_type": "ADDITIVE",
+                        "tax_type_name": "Sales Tax",
+                        "cogs_object_id": "BCZC4ZUF4SB7F6MWGOS3DXXI",
+                        "tax_label_order": 0,
+                        "percentage": "6",
+                        "name": "Sales Tax",
+                        "tax_type_id": "us_sales_tax"
+                    },
+                    "fee_line_item_id_pair": {
+                        "client_id": "79fca387-9b4d-48b8-8204-e801693b62ac",
+                        "server_id": "21f7fecb-5890-4c8e-9574-836e4fda5760"
+                    },
+                    "created_at": {
+                        "date_string": "2020-03-25T09:59:35-05:00"
+                    }
+                }
+            ]
+        },
+        "amount_details": {
+            "net": {
+                "total_money": {
+                    "amount": 1739,
+                    "currency_code": "USD"
+                },
+                "surcharge_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "tip_money": {
+                    "amount": 332,
+                    "currency_code": "USD"
+                },
+                "discount_money": {
+                    "amount": -148,
+                    "currency_code": "USD"
+                },
+                "tax_money": {
+                    "amount": 80,
+                    "currency_code": "USD"
+                }
+            },
+            "return": {
+                "total_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "surcharge_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "tip_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "discount_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "tax_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                }
+            },
+            "sale": {
+                "total_money": {
+                    "amount": 1407,
+                    "currency_code": "USD"
+                },
+                "surcharge_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "tip_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "discount_money": {
+                    "amount": -148,
+                    "currency_code": "USD"
+                },
+                "tax_money": {
+                    "amount": 80,
+                    "currency_code": "USD"
+                }
+            }
+        }
+    },
+    "merchant": {
+        "read_only_photo_url": "https://square-web-staging-f.squarecdn.com/files/ee962b084edba69cac8f73fc1b98b9b80fd8aee6/original.jpeg",
+        "read_only_business_name": "Bistro Haus",
+        "merchant_token": "H950Y11QM2TF1"
+    },
+    "read_only_loyalty_details": {
+        "account_contact": {
+        },
+        "reason": "UNKNOWN",
+        "new_enrollment": false,
+        "stars_earned": 0,
+        "rewards_earned": 0
+    }
+}

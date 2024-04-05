@@ -1,0 +1,11 @@
+framework module SquareReaderSDK {
+  umbrella header "SquareReaderSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SquareReaderSDK.Swift {
+    header "SquareReaderSDK-Swift.h"
+    requires objc
+}

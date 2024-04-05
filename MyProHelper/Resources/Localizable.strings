@@ -1,0 +1,498 @@
+/* 
+  Localization.strings
+  MyProHelper
+
+  Created by Benchmark Computing on 05/06/20.
+  Copyright © 2020 Benchmark Computing. All rights reserved.
+*/
+
+// Side Menu List Keys
+"JOB_LIST"                      = "Jobs List";
+"CALENDAR"                      = "Calendar";
+"CUSTOMERS"                     = "Customers";
+"JOBS"                          = "Jobs";
+"INVENTORY"                     = "Inventory";
+"WORKERS"                       = "Workers";
+"PAYROLL"                       = "Payroll";
+"APPROVALS"                     = "Approvals";
+"REPORTS"                       = "Reports";
+"MASTER_SETUP"                  = "Master Setup";
+"HELP"                          = "Help";
+"CUSTOMERS_LIST"                = "Customers List";
+"SCHEDULE_JOBS"                 = "Schedule A Job";
+"JOB_HISTOR"                    = "Job History";
+"QOUTES"                        = "Quotes";
+"ESTIMATES"                     = "Estimates";
+"INVOICES"                      = "Invoices";
+"PAYMENTS"                      = "Payments";
+"RECEIPTS"                      = "Receipts";
+"PARTS"                         = "Parts";
+"SUPPLIES"                      = "Supplies";
+"PURCHASE_ORDERS"               = "Purchase Orders";
+"WORK_ORDERS"                   = "Work Orders";
+"WORKERS_LIST"                  = "Workers List";
+"EXPENSE_STATEMENTS"            = "Expense Statements";
+"CURRENT_TIME_SHEET"            = "Current Time Sheet";
+"TIME_SHEET_HISTORY"            = "Time Sheet History";
+"TIME_OFF_REQUEST"              = "Time off Request";
+"WAGES"                         = "Wages";
+"CREATE_PAYROLL"                = "Create Payroll";
+"TIME_SHEETS"                   = "Time Sheets";
+"TIME_OFF_APPROVALS"            = "Time-Off Approvals";
+"INVOICE_APPROVALS"             = "Invoice Approvals";
+"WORK_ORDER_APPROVALS"          = "Work Order Approvals";
+"PURCHASE_ORDER_APPROVALS"      = "Purchase Order Approvals";
+"EXPENSE_STATEMENT_APPROVALS"   = "Expense Statement Approvals";
+"UNSCHEDULED_JOB"               = "Unscheduled Jobs";
+"BALANCE_AMOUNT"                = "Balance Amount";
+"RECEIVED_AMOUNT"               = "Received Amount";
+"TECHNICAL_SUPPORT"             = "Technical Support";
+"CONTACT_US"                    = "Contact Us";
+"AUDIT_TRAIL"                   = "Audit Trail";
+"REFER_A_FRIEND"                = "Refer a Friend to Us";
+"ABOUT_PROGRAM "                = "About this Program";
+"ADJUST_COMPANY_SETTINGS"       = "Adjust Company Settings";
+"COMPANY_INFORMATION"           = "Company Information";
+"ASSET_TYPE"                    = "Asset Type";
+"ASSETS"                        = "Assets";
+"SERVICES"                      = "Services";
+"ROLES_GROUP"                   = "Roles Group";
+"DEVICES"                       = "Devices";
+"PART_LOCATIONS"                = "Part Locations";
+"SUPPLY_LOCATIONS"              = "Supply Locations";
+"VENDORS"                       = "Vendors";
+"TIME_OFF_RULES"                = "Time-Off Rules";
+"HOLIDAYS"                      = "Holidays";
+"JOB_CONFIRMATION"              = "Job Confirmation";
+"JOB_HISTORY"                   = "Job History";
+"UNSCHEDULED_JOBS"              = "Unscheduled Jobs";
+"ABOUT_PROGRAM"                 = "About Program";
+"PROFILE"                       = "Profile";
+"CHANGE_PASSWORD"               = "Change Password";
+"LOGOUT"                        = "Logout";
+
+
+// Customer keys
+"CUSTOMER_ID"                   = "Customer ID";
+"CUSTOMER_NAME"                 = "Customer Name";
+"CUSTOMER"                      = "Customer";
+"CONTACT_NAME"                  = "Contact Name";
+"CONTACT_PHONE"                 = "Contact Phone";
+"CONTACT_EMAIL"                 = "Contact Email";
+"MOST_RECENT_CONTACT"           = "Most Recent Contact";
+"BILLING_ADDRESS_ONE"           = "Billing Address";
+"BILLING_ADDRESS_TWO"           = "Billing Address 2";
+"BILLING_ADDRESS_CITY"          = "Billing Address City";
+"BILLING_ADDRESS_STATE"         = "Billing Address State";
+"BILLING_ADDRESS_ZIP"           = "Billing Address Zip";
+"CITY_STATE"                    = "City, State";
+
+// Action Sheet keys
+"VIEW"                          = "View";
+"SHOW"                          = "Show";
+"VIEW"                          = "View";
+"EDIT"                          = "Edit";
+"DELETE"                        = "Delete";
+"UNDELETE"                      = "Undelete";
+"CLOSE"                         = "Close";
+"OK"                            = "OK";
+"ACTION_ADD_STOCK"          = "Add more to stock";
+"ACTION_REMOVE_INVENTORY"       = "Remove From Inventory";
+"ACTION_TRANSFER_INVENTORY"     = "Transfer Inventory";
+"ACTION_SHOW_INVOICES_WATING_FOR_PART"   = "Invoices waiting for this part";
+"ACTION_SHOW_INVOICES_WATING_FOR_SUPPLY" = "Invoices waiting for this supply";
+"NEW_CODE" = "New Code";
+"ACCEPT" = "Accept";
+"DECLINE" = "Decline";
+
+
+//LATEST INFO
+"CALL_LIST" = "Call List";
+//"QUOTES" = "Quotes";
+//"ESTIMATES" = "Estimates";
+"BILLING_INVOICE" = "Billing/Invoice";
+"REPORTS_TEST" = "Reports Test";
+"NO_DOT" = "No.";
+
+// Vendor Keys
+"VENDOR_NAME"                   = "Vendor Name";
+
+
+// Work Order Keys
+
+"APPROVED_DATE"                 = "Approved Date";
+
+// Expense Statements
+
+"AMOUNT_TO_REIMBURSE"           = "Amount To Reimburse ";
+"TOTAL" = "Total";
+
+// Part Keys
+"PART_NAME"                     = "Part Name";
+"NO_WAITING_FOR_MESSAGE"        = "No Job waiting for this part";
+"PART_LOCATION_TO"              = "Part Location To";
+"STOCKED_PARTS"                 = "Stocked Parts";
+
+
+//Supply Keys
+"SUPPLY_LOCATION_TO"            = "Supply Location To";
+"NO_WAITING_FOR_MESSAGE_SUPPLY" = "No Job waiting for this supply";
+"IS_REMOVED" = "Is Removed?";
+
+// Asset Type keys
+"TYPE_OF_ASSET" = "Type Of Asset";
+
+// Asset keys
+"ASSETS_NAME"                   = "Assets Name";
+"ASSET_NAME"                    = "Asset Name";
+"MODEL_INFO"                    = "Model Info";
+"SERIAL_NUMBER"                 = "Serial Number";
+"ASSET_TYPE"                    = "Asset Type";
+"PURCHASE_PRICE"                = "Purchase Price";
+"MILEAGE"                       = "Mileage";
+"HOURS_USED"                    = "Hours Used";
+"MAINTENANCE_DATE"              = "Maintenance Date";
+"LATEST_MAINTENANCE_DATE"       = "Latest Maintenance Date";
+
+// Workers keys
+"HOURLY_WORKER"                 = "Hourly Worker";
+
+//JOBS Keys
+
+//"SCHEDULE_JOB"                  = "Click Here to Schedule Job";
+"SCHEDULE_JOB"                  = "Schedule Job";
+"USE_DIFFERENT_ADDRESS"           = "Use different Address";
+
+//Purchase Order Keys
+
+"SALE_TAX" = "Sales Tax";
+"SHIPPING" = "Shipping";
+"EXPECTED_DATE" = "Expected Date";
+"ORDERED_DATE" = "Ordered Date";
+"NON_STOCKABLE_ITEM" = "Non-Stockable";
+
+
+// Generic Keys
+"NUMBER_ABBREVIATION"           = "NO.";
+"PHONE"                         = "Phone";
+"EMAIL"                         = "Email";
+"ACCOUNT_NUMBER"                = "Account Number";
+"ATTACHMENTS"                   = "Attachments";
+"RECENT_CONTACT"                = "Recent Contact";
+"NAME"                          = "Name";
+"DESCRIPTION"                   = "Description";
+"PURCHASED_FROM"                = "Purchased From";
+"PART_LOCATION"                 = "Part Location";
+"QUANTITY"                      = "Quantity";
+"PRICE_PAID"                    = "Price Paid";
+"PRICE_TO_RESELL"               = "Price To Resell";
+"WAITING_COUNT"                 = "Waiting Count";
+"PURCHASED_DATE"                = "Purchased Date";
+"CREATED_DATE"                  = "Created Date";
+"DATE_CREATED"                  = "Date Created";
+"PRICE_QUOTE"                   = "Price Quote";
+"FIRST_NAME"                    = "First Name";
+"LAST_NAME"                     = "Last Name";
+"CELL_NUMBER"                   = "Cell Number";
+"SALARY"                        = "Salary";
+"CONTRACTOR"                    = "Contractor";
+"WORKER_NAME"                   = "Worker Name";
+"SCHEDULED_DATE_TIME"           = "Scheduled Date Time";
+"ADDRESS"                       = "Address";
+"CONTACT_PERSON_NAME"           = "Contact Person Name";
+"JOB_TITLE"                     = "Job Title";
+"STATUS"                        = "Status";
+"LAST_PURCHASED"                = "Last Purchased";
+"REMOVED"                       = "Removed";
+"LAST_PURCHASED_DATE"           = "Last Purchased Date";
+"WHERE_PURCHASED"               = "Where Purchased";
+"ADD"                           = "add";
+"ADD_STOCK"                     = "add Stock";
+"ADD_QUANTITY"                  = "Add Quantity";
+"REMOVE_QUANTITY"               = "Remove Quantity";
+"TRANSFER_QUANTITY"             = "Transfer Quantity";
+"PART_LOCATION_FROM"            = "Part Location From";
+"CHOOSE_DATE"                   = "Choose date";
+"ACTION"                        = "Action";
+"MIDDLE_NAME"                   = "Middle Name";
+"NICKNAME"                      = "Nickname";
+
+"LINE_ITEM"                     = "Line Item";
+"PART"                          = "Part";
+"PART_NUMBER"                   = "Part Number";
+"PRICE_PER_ITEM"                = "Price Per Item";
+
+// GENERIC MESSAGES
+
+"DELETE_ATTACHMENT_MESSAGE"     = "are you sure you want to delete attachment: ";
+"ADD_ATTACHMENT_BUTTON_TITLE"   = "add Attachment";
+"PART_LOCATION_ERROR_MESSAGE"   = "Please provide part location.";
+"REMOVE_INVENTORY_ERROR"        = "You can not remove the entered quantity";
+"SELECT_ITEM_MESSAGE"           = "--SELECT--";
+
+// CREATE JOB KEYS
+"JOB_INFORMATION"               = "Job Details";
+"CONTACT_DETAILS"               = "Contact Details";
+"ASSINGMENT_DETAILS"            = "Assignment Details";
+"CHOOSE_CUSTOMER"               = "Choose Customer";
+"ENTER_YOUR_ISSUE"              = "Enter your issue";
+"YOUR_NAME"                     = "Your Name";
+"YOUR_PHONE"                    = "Your Phone";
+"YOUR_EMAIL"                    = "Your Email";
+"ADDRESS_ONE"                   = "Address 1";
+"ADDRESS_TWO"                   = "Address 2";
+"CITY"                          = "CITY";
+"STATE"                         = "STATE";
+"ZIP"                           = "ZIP";
+"START_DATE_TIME"               = "Start Date Time";
+"END_DATE_TIME"                 = "End Date Time";
+"ESTIMATE_TIME_DURATION"        = "Estimate Time Duration";
+"JOB_STATUS"                    = "Job Status";
+"CHOOSE_FILE"                   = "Choose File";
+"SHOW_ALL_WORKERS"              = "Show all workers";
+
+// PickTime View Keys
+
+"PICK_TIME_SCREEN_TITLE"        = "Schedule Job Time Frame";
+"PICK_TIME_TEXT_FIELD_TITLE"    = "Time Frame in minutes";
+"PICK_TIME_CLOSE_BUTTON"        = "Close";
+"PICK_TIME_SCHEDULE_BUTTON"     = "Schedule";
+
+// WORKER KEYS
+
+"PERSONAL_INFO"                 = "Personal Info";
+"ADDRESS"                       = "Address";
+"ROLES"                         = "Roles";
+"DEVICES"                       = "Devices";
+"WAGES"                         = "Wages";
+"THEME"                         = "Theme";
+"FONT_COLOR"                    = "Font Color";
+"BACKGROUND_COLOR"              = "Background Color";
+"HOUR_SALARY_WORKER"            = "Hourly/Salary Worker";
+"CONTRACTOR"                    = "Contractor";
+"HOURLY"                        = "Hourly";
+"CONTRACTOR"                    = "Contractor";
+"STREET_ADDRESS"                = "Street Address";
+"STREET_ADDRESS_TWO"            = "Street Address 2";
+"CITY"                          = "City";
+"STATE"                         = "State";
+"ZIP"                           = "Zip";
+"WORKED_DATE"                   = "Worked Date";
+
+
+//Role Group
+
+"DELETE_ROLE_GROUP_TITLE"       = "Delete Role Group";
+"DELETE_ROLE_GROUP_MESSAGE"     = "Are you sure you want to delete this role group";
+
+// WAGES KEYS
+
+"SALARY_RATE"                       = "Salary Rate";
+"SALART_PER_TIME"                   = "Salary Per Time";
+"HOURLY_RATE"                       = "Hourly Rate";
+"W4WH"                              = "W4WH";
+"W4_EXEMPTIONS"                     = "W4 Expemtions";
+"GARNISHMENTS"                      = "Garnishments";
+"GARNISHMENT_AMOUNT"                = "Garnishment amount";
+"FED_TAX_WH"                        = "Fed Tax WH";
+"STATE_TAX_WH"                      = "State Tax WH";
+"START_EMPLOYMENT_DATE"             = "Start Employment Date";
+"END_EMPLOYMENT_DATE"               = "End Employment Date";
+"CURRENT_VACATION_AMOUNT"           = "Current Vacation Amount";
+"VACATION_ACCRUAL_RATE_IN_HOURS"    = "Vacation Accrual Rate in Hours";
+"VACATION_HOURS_PER_YEAR"           = "Vacation Hours Per Year";
+"CONTRACT_PRICE"                    = "Contract Price";
+"NEEDS_1099"                        = "Needs 1099";
+"IS_FIXED_CONTRACT_PRICE"           = "Is Fixed Contract Price?";
+
+// DEVICES KEYS
+
+"DEVICE_NAME"                       = "Device Name";
+"DEVICE_TYPE"                       = "Device Type";
+"DEVICE_CODE"                       = "Device Code";
+"IS_DEVICE_SETUP"                   = "Is Device Setup?";
+"CODE_EXPIRES"                      = "Code Expires";
+"DELETE_DEVICE_TITLE"               = "Delete Device";
+"DELETE_DEVICE_MESSAGE"             = "Are you sure you want to delete this device";
+"EMPTY_WORKER_ERROR"                = "Please choose a worker";
+"DEVICE_TYPE_ERROR"                 = "Please enter a valid device type";
+"DEVICE_CODE_EMPTY_ERROR"           = "Please enter a valid device code";
+"DEVICE_CODE_ERROR"                 = "Device code should be in decimal number and lenth 6";
+
+"DEVICE_CODE_EXPIRES_EMPTY_ERROR" = "Please enter a valid code expire date";
+
+"DEVICE_DETAIL"                     = "Device Details";
+"ACTIVE_PANEL"                      = "Active Panel";
+"UN_CONFIGURE_PANEL"                = "Un-Configure panel";
+
+// HOLIDAYS KEYS
+
+"HOLIDAY_NAME"                      = "Holiday Name";
+"YEAR"                              = "Year";
+"ACTUAL_DATE"                       = "Actual Date";
+"DATE_CELEBRATED"                   = "Date Celebrated";
+"DATE_MODIFIED"                     = "Date Modified";
+
+// JOB HISTORY KEYS
+
+"JOB_ID"                           = "Job ID";
+"JOB_START_DATE"                   = "Start Date Time";
+"JOB_LOCAION_ADDRESS"              = "Job Location Address1";
+"JOB_CONTACT_PERSON_NAME"          = "Job Contact Person Name";
+"JOB_CONTACT_PHONE"                = "Job Contact Phone";
+"JOB_DESCRIPTION"                  = "Job Description";
+"JOB_PRICE"                        = "Job Price";
+"SALES_TAX"                        = "Sales Tax";
+"PAID"                             = "Paid";
+
+// SHOW JOB HISTORY KEYS
+
+"JOB_LOCATION_ADDRESS_1"       = "Location Address one";
+"JOB_LOCATION_ADDRESS_2"       = "Location Address two";
+"JOB_LOCATION_CITY"            = "City";
+"JOB_LOCATION_STATE"           = "State";
+"JOB_LOCATION_ZIP"             = "Zip";
+"JOB_CONTACT_EMAIL"            = "Contact Email";
+"JOB_SHORT_DESCRIPTION"        = "Title";
+"JOB_DESCRIPTION"              = "Job Description";
+"JOB_START_DATE_TIME"          = "Job Start date time";
+"WORKER_SCHEDULED"             = "Worker Scheduled";
+
+// QUOTES KEYS
+
+"PRICE_QUOTED"                     = "Price Quoted";
+"PRICE_ESTIMATE"                   = "Price Estimate";
+"FIXED_PRICE"                      = "Fixed Price";
+"QUOTE_EXPIRATION"                 = "Quote Expiration";
+"PRICE"                            = "Price";
+"ESTIMATE"                         = "Estimate";
+"QUOTE"                            = "Quote";
+
+// INVOICES KEYS
+
+"TOTAL_AMOUNT"                     = "Total Amount";
+"ADJUSTMENT_AMOUNT"                = "Adj Amount";
+"COMPLETED_DATE"                   = "Completed Date";
+"SCHEDULED_JOB"                    = "Scheduled Job";
+"INVOICE_ADJUSTEMENT"              = "Invoice Adjustment";
+"DISCOUNT_PERCENTAGE"              = "Discount %";
+"TOTAL_INVOICE_AMOUNNT"            = "Total Invoice Amount";
+"DATE_OF_SERVICE"                  = "Date Of Service";
+
+// SERVICE USED ITEM
+
+"SERVICE_USED_ITEM"                = "Service Used Item";
+"SERVICE_NAME"                     = "Service Name";
+"ADD_SERVICE_USED"                 = "Add Service";
+"SERVICE_TYPE"                     = "Service Type";
+"SERVICE_TAX_PERCENTAGE"           = "Service Tax %";
+"TAX_ON_SERVICE"                   = "Tax On Service";
+
+
+// PARTS USED ITEM
+
+"PARTS_USED_ITEM"                  = "Parts Used Item";
+"ADD_PART"                         = "Add part";
+"PART_TAX_PERCENTAGE"              = "Part Tax %";
+"TAX_ON_PARTS"                     = "Tax On Parts";
+
+// JOB DETAIL ITEM
+"JOBS_TO_RESCHEDULE"               = "Jobs To Reschedule";
+"OPEN_JOB_DETAILS"                 = "Open Job Details";
+"SHORT_DESCRIPTION"                = "Short Description";
+"DETAILS"                          = "Details";
+"ENTERED_BY"                       = "Entered By";
+"ENTERED_DATE_TIME"                = "Entered Date Time";
+
+"SUPPLIES_USED_ITEM"               = "Supplies Used Item";
+"ADD_SUPPLY_USED"                  = "Add Supply";
+"SUPPLY_TAX_PERCENTAGE"            = "Supply Tax %";
+"TAX_ON_SUPPLIES"                  = "Tax On Supplies";
+"SUPPLY_NAME"                      = "Supply Name";
+"SUPPLY_LOCATION"                  = "Supply Location";
+"SUPPLYS"                          = "Supply";
+
+// TIMEOFF REQUEST ITEM
+"START_DATE"                       = "Start Date";
+"END_DATE"                         = "End Date";
+"TYPE_OF_LEAVE"                    = "Type Of Leave";
+"REMARKS"                          = "Remarks";
+"REQUESTED_DATE"                   = "Requested Date";
+"APPROVED_BY"                      = "Approved By";
+"APPRROVED_DATE"                   = "Approved Date";
+"LEAVE_STATUS"                     = "Leave Status";
+
+"GROUP_NAME"                        = "Group Name";
+"COMPANY_SETUP"                     = "Company Setup";
+"ADD_WORKERS"                       = "Add Workers";
+"ADD_CUSTOMERS"                     = "Add Customers";
+"RUN_PAYROLL"                       = "Run Payroll";
+"SEE_WAGES"                         = "See Wages";
+"SCHEDULE"                          = "Schedule";
+"INVENTORY"                         = "Inventory";
+"RUN_REPORTS"                       = "Run Reports";
+"ADD_REMOVE_INVENTORY_ITEMS"        = "Add Remove Inventory Items";
+"EDIT_TIME_ALREADY_ENTERED"         = "Edit Time Already Entered";
+"REQUEST_VACATION"                  = "Request Vacation";
+"REQUEST_SICK"                      = "Request Sick";
+"REQUEST_PERSONAL_TIME"             = "Request Personal Timer";
+"CAN_SHCEDULE_JOBS"                 = "Can Schedule Jobs";
+"CAN_APPROVE_PURCHASE_ORDERS"       = "Can Approve Purchase Orders";
+"CAN_APPROVE_WORK_ORDERS"           = "Can Approve Work Orders";
+"CAN_APPROVE_INVOICES"              = "Can Approve Invoices";
+"RECEIVE_EMAILS_FOR_REJECTED_JOBS"  = "Receive Emails For Rejected Jobs";
+
+"ADMIN"                             = "Admin";
+"OWNER"                             = "Owner";
+"TECH_SUPPORT"                      = "Tech Support";
+"CAN_DO_COMPANY_SETUP"              = "Can Do Company Setup";
+"CAN_ADD_WORKERS"                   = "Can Add Workers";
+"CAN_ADD_CUSTOMERS"                 = "Can Add Customers";
+"CAN_RUN_PAYROLL"                   = "Can Run Payroll";
+"CAN_SEE_WAGES"                     = "Can See Wages";
+"CAN_SCHEDULE"                      = "Can Schedule";
+"CAN_DO_INVENTORY"                  = "Can Do Inventory";
+"CAN_RUN_REPORT"                    = "Can Run Report";
+"CAN_ADD_REMOVE_INVENTORY_ITEMS"    = "Can Add Remove Inventory Items";
+"CAN_EDIT_TIME_ALREADY_ENTERED"     = "Can Edit Time Already Entered";
+"CAN_REQUEST_VACATION"              = "Can Request Vacation";
+"CAN_REQUEST_SICK"                  = "Can Request Sick";
+"CAN_REQUEST_PERSONAL_TIME"         = "Can Request Personal Time";
+"CAN_APPROVE_TIMEOFF"               = "Can Approve Time-off";
+"CAN_APPROVE_PAYROLL"               = "Can Approve Payroll";
+"CAN_EDIT_JOB_HISTORY"              = "Can Edit Job History";
+"CAN_SCHEDULE_JOBS"                 = "Can Schedule Jobs";
+"RECEIVE_EMAIL_FOR_REJECTED_JOBS"   = "Receive Email For Rejected Jobs";
+
+// PAYMENTS KEYS
+
+"INVOICE_AMOUNT"                    = "Invoice Amount";
+"AMOUNT_PAID"                       = "Amount Paid";
+"NOTE"                              = "Note";
+"CASH"                              = "Cash";
+"CREDIT_CARD"                       = "Credit Card";
+"DEBIT_CARD"                        = "Debit Card";
+"NET_BANKING"                       = "Net Banking";
+"PAID_IN_FULL"                      = "Paid In Full";
+"DEPOSIT"                           = "Deposit";
+"INVOICE"                           = "Invoice";
+"TOTAL_INVOICE_AMOUNT"              = "Total Invoice Amount";
+"PAYMENT_TYPE"                      = "Payment Type";
+"TRANSACTION_ID"                    = "Transaction ID";
+"PAYMENT_NOTE"                      = "Payment Note";
+"CHOOSE_CUSTOMER_ERROR"             = "Please choose a customer";
+"CHOOSE_INVOICE_ERROR"              = "Please choose an invoice";
+"CHOOSE_AMOUNT_PAID_ERROR"          = "Please enter a valid amount";
+"CHOOSE_PAYMENT_TYPE_ERROR"         = "Please choose a valid type";
+"AMOUNT_PAYING"                     = "Amount Paying";
+
+// RECEIPTS KEYS
+"AMOUNT"                            = "Amount";
+"FULL_PAID"                         = "Full Paid";
+"PARTIAL_PAYMENT"                   = "Partial Payment";
+"FULL"                              = "Full";
+"PARTIAL"                           = "PARTIAL";
+
+"DASHBOARD"                         = "Dashboard";
+
+

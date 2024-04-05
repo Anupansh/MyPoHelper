@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0A3EE028-8A14-4A66-8435-DC27FE8A3E5D"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "802528C1-E9A6-44A1-8A33-18FC810CCCBA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyProHelper/Modules/BaseModule/BaseDataTable/BaseDataTableView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "238"
+            endingLineNumber = "238"
+            landmarkName = "removeLeftBarItems()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "81C922CD-0ED7-4467-BCD7-76E947341933"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyProHelper/Modules/Workers/WorkersList/CreateWorkerView/CollectionCells/DevicesCell/DevicesCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "generateDeviceCode(_:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "57EFC80F-22D8-4FF5-8A44-8E2B2BF59B53"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyProHelper/Modules/Workers/WorkersList/CreateWorkerView/CollectionCells/DevicesCell/DevicesCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "158"
+            endingLineNumber = "158"
+            landmarkName = "generateDeviceCode(_:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D1BC06B-31FB-4122-878A-F7F784984C9E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyProHelper/Modules/Workers/WorkersList/CreateWorkerView/CollectionCells/DevicesCell/DevicesCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "generateDeviceCode(_:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "91383895-41D8-4094-A065-D24E6E79425D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyProHelper/Modules/Workers/WorkersList/CreateWorkerView/CollectionCells/DevicesCell/DevicesCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "generateDeviceCode(_:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04BED734-5422-44EC-85F5-9E7E7AB9D24E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/SwiftDataTables/SwiftDataTables/Classes/Cells/DataCell/DataCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "configure(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A2874A2-3744-45D6-9598-923ABC6290C3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyProHelper/Repository/PartRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
+            landmarkName = "fetchStockedParts(showRemoved:with:isApproval:sortBy:sortType:offset:success:failure:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BCC48073-80CE-4FD2-B2FA-4239645EBD98"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyProHelper/Repository/PartRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "150"
+            endingLineNumber = "150"
+            landmarkName = "fetchStockedParts(showRemoved:with:isApproval:sortBy:sortType:offset:success:failure:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BCC48073-80CE-4FD2-B2FA-4239645EBD98 - 481284066660a71b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (GRDB.Database) throws -&gt; Swift.Array&lt;MyProHelper.StockedPart&gt; in MyProHelper.PartRepository.fetchStockedParts(showRemoved: Swift.Bool, with: Swift.Optional&lt;Swift.String&gt;, isApproval: Swift.Bool, sortBy: Swift.Optional&lt;MyProHelper.StockedPartFields&gt;, sortType: Swift.Optional&lt;MyProHelper.SortType&gt;, offset: Swift.Int, success: (Swift.Array&lt;MyProHelper.StockedPart&gt;) -&gt; (), failure: (Swift.Error) -&gt; ()) -&gt; ()"
+                  moduleName = "MyProHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sismac010/Desktop/Sandeep_Projects/MPHClone/vinson_dev_2/MPH-IOS/MyProHelper/Repository/PartRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "150"
+                  endingLineNumber = "150"
+                  offsetFromSymbolStart = "440">
+               </Location>
+               <Location
+                  uuid = "BCC48073-80CE-4FD2-B2FA-4239645EBD98 - 6f360b1986637a7a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (GRDB.Row) -&gt; () in closure #1 (GRDB.Database) throws -&gt; Swift.Array&lt;MyProHelper.StockedPart&gt; in MyProHelper.PartRepository.fetchStockedParts(showRemoved: Swift.Bool, with: Swift.Optional&lt;Swift.String&gt;, isApproval: Swift.Bool, sortBy: Swift.Optional&lt;MyProHelper.StockedPartFields&gt;, sortType: Swift.Optional&lt;MyProHelper.SortType&gt;, offset: Swift.Int, success: (Swift.Array&lt;MyProHelper.StockedPart&gt;) -&gt; (), failure: (Swift.Error) -&gt; ()) -&gt; ()"
+                  moduleName = "MyProHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sismac010/Desktop/Sandeep_Projects/MPHClone/vinson_dev_2/MPH-IOS/MyProHelper/Repository/PartRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "151"
+                  endingLineNumber = "151"
+                  offsetFromSymbolStart = "87">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA6CD14C-CCD9-4420-AC4E-4548787DDF8A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyProHelper/Repository/PartRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "155"
+            endingLineNumber = "155"
+            landmarkName = "fetchStockedParts(showRemoved:with:isApproval:sortBy:sortType:offset:success:failure:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "799A8DC7-8B22-4F31-B162-6BEDD8760EF1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyProHelper/Repository/PartRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "158"
+            endingLineNumber = "158"
+            landmarkName = "fetchStockedParts(showRemoved:with:isApproval:sortBy:sortType:offset:success:failure:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62B46B16-12A7-4C31-A377-5E755293ACE0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyProHelper/Repository/PartRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "fetchStockedParts(showRemoved:with:isApproval:sortBy:sortType:offset:success:failure:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "62B46B16-12A7-4C31-A377-5E755293ACE0 - ff72c1b2d641674"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyProHelper.PartRepository.fetchStockedParts(showRemoved: Swift.Bool, with: Swift.Optional&lt;Swift.String&gt;, isApproval: Swift.Bool, sortBy: Swift.Optional&lt;MyProHelper.StockedPartFields&gt;, sortType: Swift.Optional&lt;MyProHelper.SortType&gt;, offset: Swift.Int, success: (Swift.Array&lt;MyProHelper.StockedPart&gt;) -&gt; (), failure: (Swift.Error) -&gt; ()) -&gt; ()"
+                  moduleName = "MyProHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sismac010/Desktop/Sandeep_Projects/MPHClone/vinson_dev_2/MPH-IOS/MyProHelper/Repository/PartRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "145"
+                  endingLineNumber = "145"
+                  offsetFromSymbolStart = "17306">
+               </Location>
+               <Location
+                  uuid = "62B46B16-12A7-4C31-A377-5E755293ACE0 - 481284066660a49f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (GRDB.Database) throws -&gt; Swift.Array&lt;MyProHelper.StockedPart&gt; in MyProHelper.PartRepository.fetchStockedParts(showRemoved: Swift.Bool, with: Swift.Optional&lt;Swift.String&gt;, isApproval: Swift.Bool, sortBy: Swift.Optional&lt;MyProHelper.StockedPartFields&gt;, sortType: Swift.Optional&lt;MyProHelper.SortType&gt;, offset: Swift.Int, success: (Swift.Array&lt;MyProHelper.StockedPart&gt;) -&gt; (), failure: (Swift.Error) -&gt; ()) -&gt; ()"
+                  moduleName = "MyProHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sismac010/Desktop/Sandeep_Projects/MPHClone/vinson_dev_2/MPH-IOS/MyProHelper/Repository/PartRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "146"
+                  endingLineNumber = "146"
+                  offsetFromSymbolStart = "61">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

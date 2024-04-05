@@ -1,0 +1,6 @@
+framework module Pods_MyProHelper {
+  umbrella header "Pods-MyProHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

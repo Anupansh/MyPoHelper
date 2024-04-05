@@ -1,0 +1,8 @@
+framework module SquareReader {
+    umbrella header "SquareReader.h"
+    module * { export * }
+
+    // Protected headers for subclasses
+    header "CRCardReader_Protected.h"
+    header "CRFeature_Protected.h"
+}

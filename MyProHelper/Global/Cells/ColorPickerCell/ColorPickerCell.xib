@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ColorPickerCell" rowHeight="97" id="KGk-i7-Jjw" customClass="ColorPickerCell" customModule="MyProHelper" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="327" height="97"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="327" height="97"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="fYn-t4-f6H">
+                        <rect key="frame" x="20" y="5" width="287" height="70"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WKR-8U-I5K">
+                                <rect key="frame" x="0.0" y="0.0" width="287" height="32.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0GT-Vf-pbe">
+                                <rect key="frame" x="0.0" y="37.5" width="287" height="32.5"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MIo-lH-jCm">
+                                        <rect key="frame" x="0.0" y="0.0" width="254.5" height="32.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="exM-Z1-RIL">
+                                        <rect key="frame" x="254.5" y="0.0" width="32.5" height="32.5"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="contrast" translatesAutoresizingMaskIntoConstraints="NO" id="O26-8k-2Tf">
+                                                <rect key="frame" x="5" y="5" width="22.5" height="22.5"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="O26-8k-2Tf" firstAttribute="centerX" secondItem="exM-Z1-RIL" secondAttribute="centerX" id="3eW-3C-e95"/>
+                                            <constraint firstItem="O26-8k-2Tf" firstAttribute="centerY" secondItem="exM-Z1-RIL" secondAttribute="centerY" id="Bbc-cb-XeU"/>
+                                            <constraint firstItem="O26-8k-2Tf" firstAttribute="width" secondItem="exM-Z1-RIL" secondAttribute="width" multiplier="0.7" id="D1t-IG-5we"/>
+                                            <constraint firstAttribute="width" secondItem="exM-Z1-RIL" secondAttribute="height" multiplier="1:1" id="JoQ-68-NpK"/>
+                                            <constraint firstItem="O26-8k-2Tf" firstAttribute="height" secondItem="exM-Z1-RIL" secondAttribute="height" multiplier="0.7" id="g5n-eb-I41"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="T7U-JG-met"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="fYn-t4-f6H" secondAttribute="bottom" constant="8" id="Bqv-3T-KfD"/>
+                    <constraint firstItem="fYn-t4-f6H" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Ybz-mC-Byp"/>
+                    <constraint firstItem="fYn-t4-f6H" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="vT0-af-PcB"/>
+                    <constraint firstAttribute="trailing" secondItem="fYn-t4-f6H" secondAttribute="trailing" constant="20" id="vhX-Yc-6uy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="colorPickerTextField" destination="MIo-lH-jCm" id="KHr-Gf-y6m"/>
+                <outlet property="colorPickerTitleLabel" destination="WKR-8U-I5K" id="W1v-Y2-aZR"/>
+                <outlet property="constrastImageView" destination="O26-8k-2Tf" id="wkH-T8-HgK"/>
+                <outlet property="contrastViewContainer" destination="exM-Z1-RIL" id="bdP-RE-Ua7"/>
+            </connections>
+            <point key="canvasLocation" x="142.75362318840581" y="71.316964285714278"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="contrast" width="128" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

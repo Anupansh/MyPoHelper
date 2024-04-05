@@ -1,0 +1,173 @@
+{
+    "tender": [
+        {
+            "method": {
+                "no_sale_tender": {
+                }
+            },
+            "tendered_at": {
+                "date_string": "2020-03-31T20:43:19-07:00"
+            },
+            "tender_id_pair": {
+                "client_id": "65677B9E-61F2-4217-9E47-EE8E6ECA8548",
+                "server_id": "B0wfOcfHl6w3BLDHLV6KKQB"
+            },
+            "creator_details": {
+                "employee": {
+                    "last_name": "Doe",
+                    "read_only_full_name": "Doe, John",
+                    "employee_token": "ezUc7ku3atRDih9D71kH",
+                    "first_name": "John"
+                }
+            },
+            "read_only_last_refundable_at": {
+                "date_string": "2020-07-29T20:43:19-07:00"
+            },
+            "read_only_receipt_number": "B0wf",
+            "client_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:6CE8CD2D-EAEF-442B-89D4-AE13D6FD3581",
+                "app_version": "5.37"
+            },
+            "type": "NO_SALE",
+            "extra_tender_details": {
+            },
+            "read_only_state": "SETTLED",
+            "amounts": {
+                "total_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "auto_gratuity_percentage": "0"
+            }
+        }
+    ],
+    "dates": {
+        "created_at": {
+            "date_string": "2020-04-01T03:43:19Z"
+        },
+        "completed_at": {
+            "date_string": "2020-04-01T03:43:19Z"
+        }
+    },
+    "bill_id_pair": {
+        "client_id": "06C454A0-E2E2-4C1B-BD76-3499CA5C0EC5",
+        "server_id": "r1c43LNkBklb7TDURaSFZgieV"
+    },
+    "cart": {
+        "amounts": {
+            "total_money": {
+                "amount": 0,
+                "currency_code": "USD"
+            },
+            "surcharge_money": {
+                "amount": 0,
+                "currency_code": "USD"
+            },
+            "tip_money": {
+                "amount": 0,
+                "currency_code": "USD"
+            },
+            "discount_money": {
+                "amount": 0,
+                "currency_code": "USD"
+            },
+            "tax_money": {
+                "amount": 0,
+                "currency_code": "USD"
+            }
+        },
+        "line_items": {
+            "default_dining_option": {
+                "backing_details": {
+                    "dining_option": {
+                        "id": "UWIWK2PGKFF3BBEC6P626TNX",
+                        "name": "For here",
+                        "ordinal": 0,
+                        "catalog_object_reference": {
+                            "version": 1576563430219,
+                            "catalog_object_token": "UWIWK2PGKFF3BBEC6P626TNX"
+                        }
+                    }
+                },
+                "application_scope": "CART_LEVEL",
+                "dining_option_line_item_id_pair": {
+                    "client_id": "3641898E-12F2-4F67-B9AA-107D8E4551EE",
+                    "server_id": "0f4de3bc-b08e-4fff-8745-bd469071c8e4"
+                }
+            }
+        },
+        "amount_details": {
+            "net": {
+                "total_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "surcharge_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "tip_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "discount_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "tax_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                }
+            },
+            "return": {
+                "total_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "surcharge_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "tip_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "discount_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "tax_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                }
+            },
+            "sale": {
+                "total_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "surcharge_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "tip_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "discount_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                },
+                "tax_money": {
+                    "amount": 0,
+                    "currency_code": "USD"
+                }
+            }
+        }
+    },
+    "merchant": {
+        "read_only_business_name": "Brews Brews Brews",
+        "merchant_token": "VX7K76X9AHYEM"
+    },
+    "square_product": "REGISTER"
+}

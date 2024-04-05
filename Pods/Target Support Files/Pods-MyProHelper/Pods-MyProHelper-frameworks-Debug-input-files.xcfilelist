@@ -1,0 +1,21 @@
+${PODS_ROOT}/Target Support Files/Pods-MyProHelper/Pods-MyProHelper-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/CalendarKit/CalendarKit.framework
+${BUILT_PRODUCTS_DIR}/DTPhotoViewerController/DTPhotoViewerController.framework
+${BUILT_PRODUCTS_DIR}/DateToolsSwift/DateToolsSwift.framework
+${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework
+${BUILT_PRODUCTS_DIR}/ExpandableCell/ExpandableCell.framework
+${BUILT_PRODUCTS_DIR}/FlexColorPicker/FlexColorPicker.framework
+${BUILT_PRODUCTS_DIR}/GRDB.swift/GRDB.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework
+${BUILT_PRODUCTS_DIR}/M13Checkbox/M13Checkbox.framework
+${BUILT_PRODUCTS_DIR}/MapboxMaps/MapboxMaps.framework
+${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework
+${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework
+${BUILT_PRODUCTS_DIR}/SpreadsheetView/SpreadsheetView.framework
+${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework
+${BUILT_PRODUCTS_DIR}/SwiftDataTables/SwiftDataTables.framework
+${BUILT_PRODUCTS_DIR}/Turf/Turf.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/MapboxCommon/MapboxCommon.framework/MapboxCommon
+${PODS_XCFRAMEWORKS_BUILD_DIR}/MapboxCoreMaps/MapboxCoreMaps.framework/MapboxCoreMaps
+${PODS_XCFRAMEWORKS_BUILD_DIR}/MapboxMobileEvents/MapboxMobileEvents.framework/MapboxMobileEvents

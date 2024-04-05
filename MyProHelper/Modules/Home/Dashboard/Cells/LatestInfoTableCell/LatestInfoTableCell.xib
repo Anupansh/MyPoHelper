@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="270" id="KGk-i7-Jjw" customClass="LatestInfoTableCell" customModule="MyProHelper" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="443" height="270"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="443" height="270"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oSo-sD-7O8">
+                        <rect key="frame" x="0.0" y="0.0" width="443" height="250"/>
+                        <subviews>
+                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="5Bt-42-z0G">
+                                <rect key="frame" x="0.0" y="0.0" width="443" height="42"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HYe-xJ-YbN">
+                                        <rect key="frame" x="0.0" y="0.0" width="51.5" height="42"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                        <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                                        <state key="normal" title="Call List" image="list.number" catalog="system">
+                                            <color key="titleColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="tabButtonPressedWithSender:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="w0c-bN-wbO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y5K-we-EJz">
+                                        <rect key="frame" x="59.5" y="0.0" width="49.5" height="42"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                        <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                                        <state key="normal" title="Quotes" image="quote.bubble" catalog="system">
+                                            <color key="titleColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="tabButtonPressedWithSender:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="hnP-So-8hu"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3BQ-Ux-A6A">
+                                        <rect key="frame" x="117" y="0.0" width="58" height="42"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                        <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                                        <state key="normal" title="Estimates" image="calendar" catalog="system">
+                                            <color key="titleColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="tabButtonPressedWithSender:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="T7b-m9-Rcc"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YVG-Us-LT3">
+                                        <rect key="frame" x="183" y="0.0" width="73.5" height="42"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                        <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                                        <state key="normal" title="Billing/Invoice" image="chart.pie" catalog="system">
+                                            <color key="titleColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="tabButtonPressedWithSender:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Dxh-P8-eg2"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qYv-Y4-o3T">
+                                        <rect key="frame" x="264.5" y="0.0" width="69" height="42"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                        <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                                        <state key="normal" title="Reports Test" image="chart.pie" catalog="system">
+                                            <color key="titleColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="tabButtonPressedWithSender:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Plc-4h-1uH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Enf-qM-EfH">
+                                        <rect key="frame" x="341.5" y="0.0" width="63.5" height="42"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                        <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                                        <state key="normal" title="Time Sheet" image="chart.pie" catalog="system">
+                                            <color key="titleColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="tabButtonPressedWithSender:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="bQl-cx-jTD"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AjY-vz-b7I">
+                                        <rect key="frame" x="413" y="0.0" width="30" height="42"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                        <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                                        <state key="normal" title="Payroll" image="chart.pie" catalog="system">
+                                            <color key="titleColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="tabButtonPressedWithSender:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="cly-Ck-6ZB"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="FXa-An-aCB"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i6S-JC-UrT">
+                                <rect key="frame" x="10" y="0.0" width="41.5" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="DaQ-l8-vrw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oT6-12-iQw" userLabel="LineSeparator">
+                                <rect key="frame" x="0.0" y="32" width="443" height="1"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="B0p-zr-DfU"/>
+                                </constraints>
+                            </view>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="49A-mN-OP1">
+                                <rect key="frame" x="0.0" y="33" width="443" height="217"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="rx0-Gf-ceo">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="5Bt-42-z0G" secondAttribute="trailing" id="03x-2E-2eu"/>
+                            <constraint firstItem="5Bt-42-z0G" firstAttribute="leading" secondItem="oSo-sD-7O8" secondAttribute="leading" id="0eh-lI-dJw"/>
+                            <constraint firstItem="i6S-JC-UrT" firstAttribute="leading" secondItem="oSo-sD-7O8" secondAttribute="leading" constant="10" id="99L-Rk-42l"/>
+                            <constraint firstItem="49A-mN-OP1" firstAttribute="top" secondItem="oT6-12-iQw" secondAttribute="bottom" id="E67-Zd-y0B"/>
+                            <constraint firstItem="oT6-12-iQw" firstAttribute="top" secondItem="i6S-JC-UrT" secondAttribute="bottom" constant="8" id="HUm-WU-KVo"/>
+                            <constraint firstItem="5Bt-42-z0G" firstAttribute="top" secondItem="oSo-sD-7O8" secondAttribute="top" id="N6H-0f-oED"/>
+                            <constraint firstItem="49A-mN-OP1" firstAttribute="leading" secondItem="oSo-sD-7O8" secondAttribute="leading" id="Oe0-S3-UBT"/>
+                            <constraint firstAttribute="trailing" secondItem="49A-mN-OP1" secondAttribute="trailing" id="UPA-IS-pLb"/>
+                            <constraint firstAttribute="bottom" secondItem="49A-mN-OP1" secondAttribute="bottom" id="VM9-Zd-o1F"/>
+                            <constraint firstItem="i6S-JC-UrT" firstAttribute="top" secondItem="oSo-sD-7O8" secondAttribute="top" id="WDe-9N-dJO"/>
+                            <constraint firstAttribute="trailing" secondItem="oT6-12-iQw" secondAttribute="trailing" id="dpC-Ow-Brg"/>
+                            <constraint firstItem="oT6-12-iQw" firstAttribute="leading" secondItem="oSo-sD-7O8" secondAttribute="leading" id="efc-O0-SDH"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="oSo-sD-7O8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="akj-7C-Wty"/>
+                    <constraint firstAttribute="trailing" secondItem="oSo-sD-7O8" secondAttribute="trailing" id="fDr-E1-Yip"/>
+                    <constraint firstItem="oSo-sD-7O8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="pE1-73-pic"/>
+                    <constraint firstAttribute="bottom" secondItem="oSo-sD-7O8" secondAttribute="bottom" constant="20" id="zkj-vy-AKY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="billingAndInvoiceTabButton" destination="YVG-Us-LT3" id="ra4-Rt-EEa"/>
+                <outlet property="callListTabButton" destination="HYe-xJ-YbN" id="zYq-uP-kfh"/>
+                <outlet property="collectionView" destination="49A-mN-OP1" id="h9A-JI-ocg"/>
+                <outlet property="dataTableView" destination="oSo-sD-7O8" id="Fh7-0L-QT0"/>
+                <outlet property="estimatesTabButton" destination="3BQ-Ux-A6A" id="MKO-ZG-f2G"/>
+                <outlet property="payrollTabButton" destination="AjY-vz-b7I" id="aPD-Z5-ZWS"/>
+                <outlet property="quotesTabButton" destination="Y5K-we-EJz" id="5Fa-vf-eau"/>
+                <outlet property="reportsTestTabButton" destination="qYv-Y4-o3T" id="UKi-37-N1Y"/>
+                <outlet property="timeSheetTabButton" destination="Enf-qM-EfH" id="JIl-J5-n79"/>
+                <outlet property="titleLbl" destination="i6S-JC-UrT" id="fbX-6f-xM3"/>
+            </connections>
+            <point key="canvasLocation" x="131.15942028985509" y="102.45535714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="calendar" catalog="system" width="128" height="106"/>
+        <image name="chart.pie" catalog="system" width="128" height="121"/>
+        <image name="list.number" catalog="system" width="128" height="97"/>
+        <image name="quote.bubble" catalog="system" width="128" height="110"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
